@@ -1,0 +1,8 @@
+#ignore intellij files *.iml
+**/*.iml
+
+#Ignore all target directories
+**/target/
+
+#iIgnore intellij configuration directory
+.idea/
