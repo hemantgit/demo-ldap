@@ -1,0 +1,1514 @@
+<bundleRights>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>BlankPage</itemName>
+        <itemType>PAGE</itemType>
+        <rights>
+            <itemRight name="BlankPage" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="BlankPage" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="BlankPage" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="BlankPage" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="BlankPage" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>[BBHOST]</contextItemName>
+        <itemName>BlankPage</itemName>
+        <itemType>PAGE</itemType>
+        <rights>
+            <itemRight name="BlankPage" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="BlankPage" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="BlankPage" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>[BBHOST]</contextItemName>
+        <itemName>BlankPageTemplate</itemName>
+        <itemType>TEMPLATE</itemType>
+        <rights>
+            <itemRight name="BlankPageTemplate" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="BlankPageTemplate" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="BlankPageTemplate" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>[BBHOST]</contextItemName>
+        <itemName>Column_table</itemName>
+        <itemType>TEMPLATE</itemType>
+        <rights>
+            <itemRight name="Column_table" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="Column_table" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>[BBHOST]</contextItemName>
+        <itemName>ManageableArea</itemName>
+        <itemType>TEMPLATE</itemType>
+        <rights>
+            <itemRight name="ManageableArea" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="ManageableArea" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>[BBHOST]</contextItemName>
+        <itemName>Standard_Widget</itemName>
+        <itemType>TEMPLATE</itemType>
+        <rights>
+            <itemRight name="Standard_Widget" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="Standard_Widget" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>[BBHOST]</contextItemName>
+        <itemName>TCont</itemName>
+        <itemType>TEMPLATE</itemType>
+        <rights>
+            <itemRight name="TCont" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="TCont" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>[BBHOST]</contextItemName>
+        <itemName>content-structured-article</itemName>
+        <itemType>CONTENTTYPE</itemType>
+        <rights>
+            <itemRight name="content-structured-article" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="content-structured-article" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_manager</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>[BBHOST]</contextItemName>
+        <itemName>content-structured-author</itemName>
+        <itemType>CONTENTTYPE</itemType>
+        <rights>
+            <itemRight name="content-structured-author" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="content-structured-author" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_manager</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1458668806732</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1458668806732" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1458668806732" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1458668806732" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1458668806732" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1458668806732" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1458680116311</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1458680116311" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1458680116311" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1458680116311" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1458680116311" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1458680137168</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1458680137168" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1458680137168" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1458680137168" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1458680137168" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1458680137168" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1458681809903</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1458681809903" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1458681809903" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1458681809903" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1458681809903" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1458681809903" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1458682228410</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1458682228410" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1458682228410" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1458682228410" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1458682228410" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1458682228410" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1458682939890</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1458682939890" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1458682939890" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1458682939890" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1458682939890" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1458682939890" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459355742585</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459355742585" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459355742585" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459355742585" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459355742585" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459355742585" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459355870540</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459355870540" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459355870540" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459355870540" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459355870540" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459355870540" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459355915079</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459355915079" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459355915079" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459355915079" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459355915079" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459355915079" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459355948133</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459355948133" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459355948133" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459355948133" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459355948133" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459355948133" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459355964692</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459355964692" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459355964692" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459355964692" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459355964692" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459355964692" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459355995879</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459355995879" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459355995879" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459355995879" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459355995879" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459355995879" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356042802</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356042802" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356042802" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356042802" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356042802" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356042802" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356123481</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356123481" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356123481" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356123481" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356123481" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356123481" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356144972</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356144972" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356144972" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356144972" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356144972" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356144972" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356165998</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356165998" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356165998" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356165998" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356165998" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356165998" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356193626</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356193626" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356193626" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356193626" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356193626" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356193626" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356219210</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356219210" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356219210" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356219210" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356219210" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356219210" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356238150</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356238150" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356238150" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356238150" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356238150" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356238150" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356256978</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356256978" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356256978" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356256978" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356256978" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356256978" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356275851</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356275851" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356275851" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356275851" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356275851" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356275851" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356321838</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356321838" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356321838" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356321838" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356321838" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356321838" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356343955</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356343955" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356343955" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356343955" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356343955" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356343955" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356363865</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356363865" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356363865" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356363865" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356363865" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356363865" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356380497</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356380497" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356380497" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356380497" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356380497" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356380497" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356404156</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356404156" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356404156" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356404156" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356404156" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356404156" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356421146</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356421146" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356421146" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356421146" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356421146" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356421146" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459356465650</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459356465650" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459356465650" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459356465650" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459356465650" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459356465650" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459361519541</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459361519541" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459361519541" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459361519541" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459361519541" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459361519541" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459361539396</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459361539396" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459361539396" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459361539396" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459361539396" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459361539396" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459361571095</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459361571095" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459361571095" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459361571095" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459361571095" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459361571095" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459361588715</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459361588715" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459361588715" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459361588715" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459361588715" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459361588715" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459361607964</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459361607964" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459361607964" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459361607964" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459361607964" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459361607964" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459361623783</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459361623783" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459361623783" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459361623783" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459361623783" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459361623783" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459361638286</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459361638286" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459361638286" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459361638286" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459361638286" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459361638286" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459361742613</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459361742613" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459361742613" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459361742613" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459361742613" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459361742613" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459361758240</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459361758240" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459361758240" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459361758240" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459361758240" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459361758240" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459361784836</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459361784836" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459361784836" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459361784836" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459361784836" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459361784836" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459361803253</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459361803253" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459361803253" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459361803253" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459361803253" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459361803253" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459362599555</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459362599555" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459362599555" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459362599555" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459362599555" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459362599555" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459362643849</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459362643849" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459362643849" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459362643849" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459362643849" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459362643849" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459362669383</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459362669383" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459362669383" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459362669383" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459362669383" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459362669383" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459362685418</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459362685418" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459362685418" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459362685418" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459362685418" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459362685418" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_1459362700619</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_1459362700619" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_1459362700619" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_1459362700619" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_1459362700619" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_1459362700619" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_6f226bc7-207d-44a2-836c-188b1a63d7d1</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_6f226bc7-207d-44a2-836c-188b1a63d7d1" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_6f226bc7-207d-44a2-836c-188b1a63d7d1" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_6f226bc7-207d-44a2-836c-188b1a63d7d1" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_6f226bc7-207d-44a2-836c-188b1a63d7d1" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_6f226bc7-207d-44a2-836c-188b1a63d7d1" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_eb109966-8b39-4e56-8ecf-496b2e2666ab</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_eb109966-8b39-4e56-8ecf-496b2e2666ab" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_eb109966-8b39-4e56-8ecf-496b2e2666ab" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_eb109966-8b39-4e56-8ecf-496b2e2666ab" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_eb109966-8b39-4e56-8ecf-496b2e2666ab" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_eb109966-8b39-4e56-8ecf-496b2e2666ab" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>link_navrootMainMenu</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="link_navrootMainMenu" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="link_navrootMainMenu" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="link_navrootMainMenu" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="link_navrootMainMenu" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="link_navrootMainMenu" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>masterpage_root</itemName>
+        <itemType>LINK</itemType>
+        <rights>
+            <itemRight name="masterpage_root" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="masterpage_root" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>page_1458664580640</itemName>
+        <itemType>PAGE</itemType>
+        <rights>
+            <itemRight name="page_1458664580640" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="page_1458664580640" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="page_1458664580640" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="page_1458664580640" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="page_1458664580640" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>retail-demo</contextItemName>
+        <itemName>page_1458680116309</itemName>
+        <itemType>PAGE</itemType>
+        <rights>
+            <itemRight name="page_1458680116309" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="page_1458680116309" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="page_1458680116309" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="page_1458680116309" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+    <bundleRight>
+        <contextItemName>[BBHOST]</contextItemName>
+        <itemName>retail-demo</itemName>
+        <itemType>PORTAL</itemType>
+        <rights>
+            <itemRight name="retail-demo" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_manager</sid>
+            </itemRight>
+            <itemRight name="retail-demo" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_master page designer</sid>
+            </itemRight>
+            <itemRight name="retail-demo" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>group_user</sid>
+            </itemRight>
+            <itemRight name="retail-demo" inherited="false">
+                <securityProfile>ADMIN</securityProfile>
+                <sid>group_admin</sid>
+            </itemRight>
+            <itemRight name="retail-demo" inherited="false">
+                <securityProfile>CONSUMER</securityProfile>
+                <sid>role_anonymous</sid>
+            </itemRight>
+        </rights>
+    </bundleRight>
+</bundleRights>

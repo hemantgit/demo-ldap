@@ -1,0 +1,74 @@
+<serverPages>
+    <page>
+        <contextItemName>[BBHOST]</contextItemName>
+        <manageable>true</manageable>
+        <name>BlankPage</name>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="TemplateName">
+                <value type="string">BlankPageTemplate</value>
+            </property>
+            <property name="title">
+                <value type="string">Blank Page (CXP)</value>
+            </property>
+        </properties>
+        <tags>
+            <tag blacklist="false" type="regular">cxpManager</tag>
+        </tags>
+        <uuid>a3d7312c-519f-471c-a09b-8f5842a2abd7</uuid>
+    </page>
+    <page>
+        <contextItemName>[BBHOST]</contextItemName>
+        <manageable>true</manageable>
+        <name>page-launchpad-base</name>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="TemplateName">
+                <value type="string">LaunchpadPageTemplate</value>
+            </property>
+            <property name="behaviors">
+                <value type="string">be.perspective.Manager be.portalClientExt.PortalManagerPreferencesForm</value>
+            </property>
+            <property label="Default Account" name="defaultAccount">
+                <value type="string"/>
+            </property>
+            <property label="Enable Timeout" name="enableTimeout" viewHint="checkbox,designModeOnly,admin">
+                <value type="boolean">true</value>
+            </property>
+            <property label="Http Cache Timeout" name="httpCacheTimeout" viewHint="text-input,designModeOnly,admin">
+                <value type="long">0</value>
+            </property>
+            <property label="Locale" name="locale">
+                <value type="string">en</value>
+            </property>
+            <property label="Mask Account Number" name="maskAccountNumber">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Preferred Balance View" name="preferredBalanceView">
+                <value type="string">available</value>
+            </property>
+            <property label="Preferred Name" name="preferredName">
+                <value type="string">Lisa</value>
+            </property>
+            <property label="Theme" name="themeName" viewHint="text-input,designModeOnly,manager">
+                <value type="string">theme-retail</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/pages/[BBHOST]/page-launchpad-base/icon.png</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="String">Launchpad</value>
+            </property>
+            <property label="Version" name="version" viewHint="designModeOnly">
+                <value type="string">1.0.5</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <type>page</type>
+        <uuid>a4f3ba2d-4040-4370-868c-ba8905bb9f82</uuid>
+    </page>
+</serverPages>

@@ -1,0 +1,1451 @@
+<containers>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>TargetingContainer</extendedItemName>
+        <name>TargetingContainer-4256104</name>
+        <parentItemName>panel-container-102408</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="repositoryName">
+                <value type="string">ccd0e001-44e5-4387-9424-5867b3c86018</value>
+            </property>
+            <property name="selectedChild">
+                <value type="string">TargetingContainerChild-1458680572890</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>237484a2-1d95-4263-980d-aaeb46f45e24</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>TargetingContainerChild</extendedItemName>
+        <name>TargetingContainerChild-1458680572890</name>
+        <parentItemName>TargetingContainer-4256104</parentItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Column_table</value>
+            </property>
+            <property name="columnWidths">
+                <value type="string">100%</value>
+            </property>
+            <property name="numberOfColumns">
+                <value type="string">1</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Fall Back</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>a74f4d37-b791-4f30-9e1b-2c18fdbccf27</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>TargetingContainerChild</extendedItemName>
+        <name>TargetingContainerChild-1458910089727</name>
+        <parentItemName>TargetingContainer-4256104</parentItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Column_table</value>
+            </property>
+            <property name="columnWidths">
+                <value type="string">100%</value>
+            </property>
+            <property name="numberOfColumns">
+                <value type="string">1</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+            <property name="ruleSet">
+                <value type="string">&lt;rule-set
+                    xmlns="http://www.backbase.com/2014/rules">&lt;or order="0">&lt;rule order="0" context="segmentsCollector" selector="segmentsCollector.Segment" operator="equal" value="STUDENT"/>&lt;/or>&lt;/rule-set>
+                </value>
+            </property>
+            <property name="title">
+                <value type="string">Saving Goals</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>43510e92-c2f4-403e-979b-e70b82d5f1fa</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>TargetingContainerChild</extendedItemName>
+        <name>TargetingContainerChild-1459365270574</name>
+        <parentItemName>TargetingContainer-4256104</parentItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Column_table</value>
+            </property>
+            <property name="columnWidths">
+                <value type="string">100%</value>
+            </property>
+            <property name="numberOfColumns">
+                <value type="string">1</value>
+            </property>
+            <property name="order">
+                <value type="double">2.0</value>
+            </property>
+            <property name="ruleSet">
+                <value type="string">&lt;rule-set
+                    xmlns="http://www.backbase.com/2014/rules">&lt;or order="0">&lt;rule order="0" context="campaignCollector" selector="campaignCollector.campaign.campaigntitle" operator="equal" value="CAR"/>&lt;/or>&lt;/rule-set>
+                </value>
+            </property>
+            <property name="title">
+                <value type="string">Household Insurance</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>47f61399-eee7-4d0d-a8c6-f2a3505c4098</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>TargetingContainerChild</extendedItemName>
+        <name>TargetingContainerChild-1459365270580</name>
+        <parentItemName>TargetingContainer-4256104</parentItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">Column_table</value>
+            </property>
+            <property name="columnWidths">
+                <value type="string">100%</value>
+            </property>
+            <property name="numberOfColumns">
+                <value type="string">1</value>
+            </property>
+            <property name="order">
+                <value type="double">2.0</value>
+            </property>
+            <property name="ruleSet">
+                <value type="string">&lt;rule-set
+                    xmlns="http://www.backbase.com/2014/rules">&lt;or order="0">&lt;rule order="0" context="segmentsCollector" selector="segmentsCollector.Segment" operator="equal" value="YOUNG_PROFESSIONAL"/>&lt;/or>&lt;or order="1">&lt;rule order="0" context="campaignCollector" selector="campaignCollector.campaign.campaigntitle" operator="equal" value="MORTGAGE"/>&lt;/or>&lt;/rule-set>
+                </value>
+            </property>
+            <property name="title">
+                <value type="string">Your first home</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>f6f39f3d-af1d-4299-83a8-21d883720785</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>column-layout</extendedItemName>
+        <name>column-layout-2962309</name>
+        <parentItemName>container-simple-page-layout-9401527</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Columns" name="columns" viewHint="text-input,admin,designModeOnly">
+                <value type="string">6,6</value>
+            </property>
+            <property label="Column CSS classes" name="columnsCSSClasses" viewHint="text-input,admin,designModeOnly">
+                <value type="string">col-sm-6,col-sm-6</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>080a4f4b-da6b-487b-828b-b79b541adffc</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>column-layout</extendedItemName>
+        <name>column-layout-4352740</name>
+        <parentItemName>container-simple-page-layout-5803443</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>853e4ae7-1de1-4290-bda5-3fe0f1e7c89b</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>column-layout</extendedItemName>
+        <name>column-layout-4629557</name>
+        <parentItemName>container-simple-page-layout-104122</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>1747141d-208a-4506-b46b-5f5fec612bef</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>column-layout</extendedItemName>
+        <name>column-layout-5254131</name>
+        <parentItemName>container-simple-page-layout-80205</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Columns" name="columns" viewHint="text-input,admin,designModeOnly">
+                <value type="string">6,6</value>
+            </property>
+            <property label="Column CSS classes" name="columnsCSSClasses" viewHint="text-input,admin,designModeOnly">
+                <value type="string">col-sm-6,col-sm-6</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>53e7db95-f767-46c9-911d-1cac65d6e8fe</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>column-layout</extendedItemName>
+        <name>column-layout-7244889</name>
+        <parentItemName>container-simple-page-layout-5802361</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>b63e8aa5-ae64-4e67-8013-1ccf15b78ae0</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>column-layout</extendedItemName>
+        <name>column-layout-8166732</name>
+        <parentItemName>container-simple-page-layout-968505</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Columns" name="columns" viewHint="text-input,admin,designModeOnly">
+                <value type="string">6,6</value>
+            </property>
+            <property label="Column CSS classes" name="columnsCSSClasses" viewHint="text-input,admin,designModeOnly">
+                <value type="string">col-sm-6,col-sm-6</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>e5ec1e7b-3dcb-4f2b-982c-42e5d2d3b6e6</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>column-layout</extendedItemName>
+        <name>column-layout-8224490</name>
+        <parentItemName>container-simple-page-layout-5435171</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>353b20b1-d390-496f-948b-66b06c363d7d</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>column-layout</extendedItemName>
+        <name>column-layout-8752724</name>
+        <parentItemName>container-simple-page-layout-7407585</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>991bddec-3cfb-462c-9ad1-e50e2d0e5572</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>container-simple-page-layout</extendedItemName>
+        <name>container-simple-page-layout-104122</name>
+        <parentItemName>container_a8e78e9b-0965-4d19-96f7-b22ed333ba1c</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+            <property label="Vertical position" name="verticalPosition" viewHint="select-one,admin,designModeOnly">
+                <value type="string">middle</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>9c580928-33ee-403b-a174-c8368df8e3c9</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>container-simple-page-layout</extendedItemName>
+        <name>container-simple-page-layout-5435171</name>
+        <parentItemName>container_97a13069-ac1c-439b-96e5-e12bb7ba9131</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="order">
+                <value type="double">3.0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>c2b3063a-4fa7-4cbe-a3f1-144836498d04</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>container-simple-page-layout</extendedItemName>
+        <name>container-simple-page-layout-5802361</name>
+        <parentItemName>container_a6849d00-535f-4e99-af04-03fd1e93af60</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="order">
+                <value type="double">3.0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>be772263-0422-49c8-b34a-97ffe707965c</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>container-simple-page-layout</extendedItemName>
+        <name>container-simple-page-layout-5803443</name>
+        <parentItemName>container_a8e78e9b-0965-4d19-96f7-b22ed333ba1c</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="order">
+                <value type="double">5.0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>80f384eb-4a42-42e8-9ca2-ebc17389a939</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>container-simple-page-layout</extendedItemName>
+        <name>container-simple-page-layout-7407585</name>
+        <parentItemName>container_b5e76367-f0dd-4d5d-ad91-b06fd12b8a93</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="order">
+                <value type="double">3.0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>902e0c36-00f2-4baf-8d57-a833df49dfd9</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>container-simple-page-layout</extendedItemName>
+        <name>container-simple-page-layout-7717057</name>
+        <parentItemName>container_ad254846-5dd9-4adc-b7c8-e88c858f9a83</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>f6a24ae9-6f7e-4744-ab63-b852f0d0e09a</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>container-simple-page-layout</extendedItemName>
+        <name>container-simple-page-layout-80205</name>
+        <parentItemName>container_b5e76367-f0dd-4d5d-ad91-b06fd12b8a93</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>56b7e1e4-6808-460e-b494-acecdd5aa7c6</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>container-simple-page-layout</extendedItemName>
+        <name>container-simple-page-layout-9401527</name>
+        <parentItemName>container_a6849d00-535f-4e99-af04-03fd1e93af60</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>899b4f8f-5a60-4dba-945c-97c39bee704c</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>container-simple-page-layout</extendedItemName>
+        <name>container-simple-page-layout-968505</name>
+        <parentItemName>container_97a13069-ac1c-439b-96e5-e12bb7ba9131</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>18dba645-da37-48f7-95ad-ffebff0de8c9</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>container-simple-page-layout</extendedItemName>
+        <name>container-simple-page-layout-9911692</name>
+        <parentItemName>container_1d907fd3-0d01-4068-a97c-c36594a9f00f</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Layout type" name="layoutType" viewHint="select-one,admin,designModeOnly">
+                <value type="string">custom</value>
+            </property>
+            <property label="Vertical position" name="verticalPosition" viewHint="select-one,admin,designModeOnly">
+                <value type="string">middle</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>97a50652-035d-4d1c-b184-0b243190e1aa</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>Manageable_Area_Closure-9087711</extendedItemName>
+        <name>container_1d907fd3-0d01-4068-a97c-c36594a9f00f</name>
+        <parentItemName>page_1458680137168</parentItemName>
+        <properties></properties>
+        <tags></tags>
+        <uuid>53c8e76e-f24a-4022-8c1a-902d8281696b</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>Manageable_Area_Closure-9087711</extendedItemName>
+        <name>container_3c04d95c-1f63-4615-bd3e-f2ffb3454b30</name>
+        <parentItemName>page_1458682939888</parentItemName>
+        <properties></properties>
+        <tags></tags>
+        <uuid>1fb94cc7-8fdc-4012-b608-7e8564ec4881</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>Manageable_Area_Closure-9087711</extendedItemName>
+        <name>container_97a13069-ac1c-439b-96e5-e12bb7ba9131</name>
+        <parentItemName>page_1458682228409</parentItemName>
+        <properties></properties>
+        <tags></tags>
+        <uuid>63d9f262-fb07-4060-bc29-cd04d6425608</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>Manageable_Area_Closure-9087711</extendedItemName>
+        <name>container_a6849d00-535f-4e99-af04-03fd1e93af60</name>
+        <parentItemName>page_1458681809902</parentItemName>
+        <properties></properties>
+        <tags></tags>
+        <uuid>b9ae0013-4471-42ee-b3e4-0c8e71afb659</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>Manageable_Area_Closure-9087711</extendedItemName>
+        <name>container_a8e78e9b-0965-4d19-96f7-b22ed333ba1c</name>
+        <parentItemName>index</parentItemName>
+        <properties></properties>
+        <tags></tags>
+        <uuid>54ac3cc4-60be-4b33-956a-b586068ca88b</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>Manageable_Area_Closure-9087711</extendedItemName>
+        <name>container_ad254846-5dd9-4adc-b7c8-e88c858f9a83</name>
+        <parentItemName>page_1458680116309</parentItemName>
+        <properties></properties>
+        <tags></tags>
+        <uuid>772151ff-b4f2-4e7a-b5e1-ad478a728ef9</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>Manageable_Area_Closure-9087711</extendedItemName>
+        <name>container_b5e76367-f0dd-4d5d-ad91-b06fd12b8a93</name>
+        <parentItemName>page_1458668806731</parentItemName>
+        <properties></properties>
+        <tags></tags>
+        <uuid>3f9522a8-20d1-4ac7-9b94-9c73302f581e</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>launcher-deck-container</extendedItemName>
+        <name>launcher-deck-container-1583569</name>
+        <parentItemName>container-simple-page-layout-7717057</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Default Panel" name="defaultPanel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">panel-container-102408</value>
+            </property>
+            <property name="initialized">
+                <value type="string">true</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>cde63710-b6e3-4bc9-96ed-d9298fd91ae3</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-102408</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">star</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">true</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">mainhidden</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">Default panel</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>4338dcb3-7529-4ca0-b042-431b00c111cb</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-146286</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">4</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">credit-card</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">4.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">mainhidden</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">Card Management</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>cca05c63-0d9d-4e94-8a65-269d88bcdf26</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-159877</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">16</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">tablet</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">16.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">Saving Goals</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>bcee6044-0975-43bf-8b03-85c1d2fe9784</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-193012</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">6</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">review-transfers</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">6.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">Review Transfer</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>7de72c03-a957-4f65-b080-5c7cf0e6db8e</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-196629</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">13</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">e-bill</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">13.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">E-bill</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>a3f5b002-7948-4d72-ae4a-bc26904cd61a</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-224134</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">11</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">p2p</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">11.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">Send to Friend</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>3e16d39d-d48a-4a9a-8c84-fcd0e3ae438f</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-278750</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">9</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">rocket</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">9.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">Alerts &amp; Actions</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>a739d497-3c7a-45a0-98d0-31a1803c201c</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-363451</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">3</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">transactions</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">3.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">mainhidden</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">Transactions</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>6503ae8d-8508-4552-95ff-c27a977b0f74</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-42610</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">profile</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">My Profile</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>542493c5-2610-437e-867a-b00a8b229f5c</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-430930</name>
+        <parentItemName>tabs-container-8156855</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Preload" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">true</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Accounts</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>d71e6ca9-211b-4bfb-a4b6-369e63bf2060</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-472169</name>
+        <parentItemName>tabs-container-8156855</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Preload" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">true</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Contact Info</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>a00ce516-381a-4248-b072-e5e6d10442b2</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-506398</name>
+        <parentItemName>tabs-container-8156855</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">2</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Preload" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">true</value>
+            </property>
+            <property name="order">
+                <value type="double">2.0</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Preferences</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>bbe997e1-0d50-49b4-be74-c24923fafa87</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-5390</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">10</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">plus</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">10.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">External Accounts</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>05c5aafc-1446-450d-8406-3c5cc28cc0e5</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-563646</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">15</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">wallet</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">15.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">My Spendings</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>def98eca-97d5-4ff5-b348-3ae7f5d6569a</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-574896</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">2</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">accounts</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">2.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">My Accounts</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>afe38def-a92b-4326-81de-33fc59613b10</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-582850</name>
+        <parentItemName>tabs-container-8708047</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Preload" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">true</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">History</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>88c1f90c-4dbe-403c-b680-a59334e2ab61</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-58571</name>
+        <parentItemName>tabs-container-161580</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">2</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Preload" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">true</value>
+            </property>
+            <property name="order">
+                <value type="double">2.0</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Loyalty</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>da9f03d0-8a27-46f9-9127-023abfac996a</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-587921</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">14</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">cash-note</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">14.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">My Budget</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>159e95fa-1b74-4d6f-b5d5-dea066b9fcc7</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-608016</name>
+        <parentItemName>tabs-container-8156855</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">3</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Icon (optional)" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property name="order">
+                <value type="double">3.0</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">Send to Friend</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>1610390f-b733-494e-b369-2dec7ac0a77f</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-674157</name>
+        <parentItemName>tabs-container-161580</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Preload" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">true</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Transactions</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>890f9491-a6c8-4b50-b322-fa4a92a70d09</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-729157</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">8</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">envelope-alt</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">8.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">Message Center</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>36aa403a-1432-4278-8114-e47c559b3d0d</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-760043</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">12</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">places</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">12.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">Find us</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>b9150d49-29c6-4e5b-9d76-fdf68442a77b</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-796380</name>
+        <parentItemName>tabs-container-161580</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Preload" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">true</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Details</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>59af60f3-4d8e-4327-b37e-f6567e3ab1c4</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-803274</name>
+        <parentItemName>tabs-container-8708047</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Preload" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">true</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Inbox</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>fd001006-6115-41fd-baae-7ac57b0d0e1e</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-887202</name>
+        <parentItemName>tabs-container-8708047</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">2</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Preload" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">true</value>
+            </property>
+            <property name="order">
+                <value type="double">2.0</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Add Payee</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>167551b2-ad06-443c-9075-4c2f44616f5e</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-925464</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">5</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">new-transfer</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">5.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">New Transfer</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>3ead9b93-b9f4-48c1-9173-08525adf2c7c</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container-965906</name>
+        <parentItemName>launcher-deck-container-1583569</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">7</value>
+            </property>
+            <property name="classes">
+                <value type="string">tab-pane</value>
+            </property>
+            <property label="Custom Classes" name="customClasses" viewHint="text-input,designModeOnly,manager">
+                <value type="string"/>
+            </property>
+            <property label="Hide Chrome" name="hideChrome" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Icon" name="icon" viewHint="text-input,designModeOnly,manager">
+                <value type="string">addressbook</value>
+            </property>
+            <property label="Preload content" name="loadChildren" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property name="order">
+                <value type="double">7.0</value>
+            </property>
+            <property label="Content (and tab type)" name="panel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">main</value>
+            </property>
+            <property label="Title" name="title" viewHint="text-input,designModeOnly,manager">
+                <value type="string">Contacts</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>ee690540-8975-4227-98bd-17edb517476d</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>tabs-container</extendedItemName>
+        <name>tabs-container-161580</name>
+        <parentItemName>panel-container-146286</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Default Tab" name="defaultPanel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">panel-container-674157</value>
+            </property>
+            <property name="initialized">
+                <value type="string">true</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>e2e6ca98-977b-4d0f-97cd-7dd76a68a422</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>tabs-container</extendedItemName>
+        <name>tabs-container-8156855</name>
+        <parentItemName>panel-container-42610</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Default Tab" name="defaultPanel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">panel-container-472169</value>
+            </property>
+            <property name="initialized">
+                <value type="string">true</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>fc0f0e89-2406-4219-8c99-0072ac652d5a</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>tabs-container</extendedItemName>
+        <name>tabs-container-8708047</name>
+        <parentItemName>panel-container-196629</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Default Tab" name="defaultPanel" viewHint="text-input,designModeOnly,manager">
+                <value type="string">panel-container-803274</value>
+            </property>
+            <property name="initialized">
+                <value type="string">true</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>429c2c89-70df-41b9-82f5-52bb514c0a8d</uuid>
+    </container>
+</containers>

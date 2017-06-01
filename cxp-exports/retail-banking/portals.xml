@@ -1,0 +1,52 @@
+<portals>
+    <portal>
+        <contextItemName>[BBHOST]</contextItemName>
+        <name>retail-demo</name>
+        <properties>
+            <property name="AccessDeniedPage">
+                <value type="string">/login/login.jsp?login_error=accessdenied</value>
+            </property>
+            <property name="AuthenticationFailurePage">
+                <value type="string">/login/login.jsp?login_error=failure</value>
+            </property>
+            <property name="DefaultDevice">
+                <value type="string">mixed</value>
+            </property>
+            <property name="DefaultLandingPage">
+                <value type="string">/retail-demo/index</value>
+            </property>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="ErrorPage">
+                <value type="string">/login/error.jsp</value>
+            </property>
+            <property name="LoginPage">
+                <value type="string">/login/login.jsp</value>
+            </property>
+            <property name="LogoutPage">
+                <value type="string">/login/logout.jsp</value>
+            </property>
+            <property name="TargetedDevice">
+                <value type="string">mixed</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String"/>
+            </property>
+            <property name="TypeOfTags">
+                <value type="string">tracking</value>
+            </property>
+            <property name="publishChains">
+                <value type="string">Self - Direct</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/content/atom/ccd0e001-44e5-4387-9424-5867b3c86018/content?id=6a6fff8e-f3f2-4e02-ad03-21da102c7a9c&amp;_=1459367333501</value>
+            </property>
+            <property name="title">
+                <value type="string">Retail Demo</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>ccd0e001-44e5-4387-9424-5867b3c86018</uuid>
+    </portal>
+</portals>

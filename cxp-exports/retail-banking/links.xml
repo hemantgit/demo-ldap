@@ -1,0 +1,1871 @@
+<links>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/accounts-cards</finalUrl>
+        <name>link_1458668806732</name>
+        <parentItemName>navroot_mainmenu</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="ItemRef">
+                <value type="uuidRef">64edcd8c-8a10-4839-ad25-2d66348da957</value>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/accounts-cards</value>
+            </property>
+            <property name="itemType">
+                <value type="string">page</value>
+            </property>
+            <property name="order">
+                <value type="double">505.0</value>
+            </property>
+            <property name="sectionName">
+                <value type="string">accounts-cards</value>
+            </property>
+            <property name="title">
+                <value type="string">Accounts &amp; Cards</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>955e139a-a360-4937-ae67-97272c5678c0</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/my-banking</finalUrl>
+        <name>link_1458680116311</name>
+        <parentItemName>navroot_notinmenu</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="ItemRef">
+                <value type="uuidRef">f26767ee-0fe3-4bd1-bd7d-6110e226f0f4</value>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">false</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/my-banking</value>
+            </property>
+            <property name="itemType">
+                <value type="string">page</value>
+            </property>
+            <property name="order">
+                <value type="double">-750.0</value>
+            </property>
+            <property name="sectionName">
+                <value type="string">my-banking</value>
+            </property>
+            <property name="title">
+                <value type="string">My Banking</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>2dd9c6b1-dc04-49d7-8faf-a7b0c6ce46c2</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/sign-in</finalUrl>
+        <name>link_1458680137168</name>
+        <parentItemName>navroot_notinmenu</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="ItemRef">
+                <value type="uuidRef">b0f19eda-bc4b-4a10-ab80-99c20212d80e</value>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/sign-in</value>
+            </property>
+            <property name="itemType">
+                <value type="string">page</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property name="sectionName">
+                <value type="string">sign-in</value>
+            </property>
+            <property name="title">
+                <value type="string">Sign in</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>1768b782-2527-4893-a54d-ac8f1a7da860</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/savings</finalUrl>
+        <name>link_1458681809903</name>
+        <parentItemName>navroot_mainmenu</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="ItemRef">
+                <value type="uuidRef">6e4a98db-87f1-4809-a845-d2da147df97e</value>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/savings</value>
+            </property>
+            <property name="itemType">
+                <value type="string">page</value>
+            </property>
+            <property name="order">
+                <value type="double">628.75</value>
+            </property>
+            <property name="sectionName">
+                <value type="string">savings</value>
+            </property>
+            <property name="title">
+                <value type="string">Savings</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>9337f1f0-5ea3-4db0-ad2d-6ccbcb5b4417</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/home-loans</finalUrl>
+        <name>link_1458682228410</name>
+        <parentItemName>navroot_mainmenu</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="ItemRef">
+                <value type="uuidRef">814b2524-a78e-45f1-82df-b9e31404a9f2</value>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/home-loans</value>
+            </property>
+            <property name="itemType">
+                <value type="string">page</value>
+            </property>
+            <property name="order">
+                <value type="double">690.625</value>
+            </property>
+            <property name="sectionName">
+                <value type="string">home-loans</value>
+            </property>
+            <property name="title">
+                <value type="string">Home Loans</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>c793b913-2e4a-4f4f-a391-b9b45d370e4a</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/article</finalUrl>
+        <name>link_1458682939890</name>
+        <parentItemName>navroot_notinmenu</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="ItemRef">
+                <value type="uuidRef">6d81772a-5b64-48fb-8cdb-55550ebf682c</value>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/article</value>
+            </property>
+            <property name="itemType">
+                <value type="string">page</value>
+            </property>
+            <property name="order">
+                <value type="double">-500.0</value>
+            </property>
+            <property name="sectionName">
+                <value type="string">article</value>
+            </property>
+            <property name="title">
+                <value type="string">Article</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>0b918396-cd9a-407b-ab04-99ead0494b9a</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com</finalUrl>
+        <name>link_1459355742585</name>
+        <parentItemName>navroot_footer</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459355742585</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">BACKBASE.COM</value>
+            </property>
+            <property name="order">
+                <value type="double">25.5</value>
+            </property>
+            <property name="title">
+                <value type="string">BACKBASE.COM</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>6bab1700-135d-42fb-ae01-c0f963177489</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/why</finalUrl>
+        <name>link_1459355870540</name>
+        <parentItemName>link_1459355742585</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/why</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459355742585/link_1459355870540</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Why Backbase</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Why Backbase</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>43d9097e-c326-484a-a968-b544767de838</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/products</finalUrl>
+        <name>link_1459355915079</name>
+        <parentItemName>link_1459355742585</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/products</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459355742585/link_1459355915079</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Products</value>
+            </property>
+            <property name="order">
+                <value type="double">500.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Products</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>5e5c6547-f9b8-4c04-a1c3-65116d6b8e15</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/solutions</finalUrl>
+        <name>link_1459355948133</name>
+        <parentItemName>link_1459355742585</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/solutions</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459355742585/link_1459355948133</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Solutions</value>
+            </property>
+            <property name="order">
+                <value type="double">750.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Solutions</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>513a6465-259d-4f17-ac81-464ec8144234</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/services</finalUrl>
+        <name>link_1459355964692</name>
+        <parentItemName>link_1459355742585</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/services</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459355742585/link_1459355964692</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Services</value>
+            </property>
+            <property name="order">
+                <value type="double">875.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Services</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>a89503c5-4457-466e-b5bf-fa224084a3e8</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://my.backbase.com</finalUrl>
+        <name>link_1459355995879</name>
+        <parentItemName>link_1459355742585</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://my.backbase.com</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459355742585/link_1459355995879</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Knowledge</value>
+            </property>
+            <property name="order">
+                <value type="double">937.5</value>
+            </property>
+            <property name="title">
+                <value type="string">Knowledge</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>ae0cf00b-c9bc-432f-937a-9085e94c07d8</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://banknxt.com/</finalUrl>
+        <name>link_1459356042802</name>
+        <parentItemName>navroot_footer</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://banknxt.com/</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356042802</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">BANKNXT</value>
+            </property>
+            <property name="order">
+                <value type="double">147.3125</value>
+            </property>
+            <property name="title">
+                <value type="string">BANKNXT</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>da72a98c-c52d-4abb-8921-dcf0bad99c17</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://banknxt.com/category/banking/</finalUrl>
+        <name>link_1459356123481</name>
+        <parentItemName>link_1459356042802</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://banknxt.com/category/banking/</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356042802/link_1459356123481</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Bankings</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Bankings</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>31bd799a-418b-4ec1-af00-849bb64fe15c</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://banknxt.com/category/fintech/</finalUrl>
+        <name>link_1459356144972</name>
+        <parentItemName>link_1459356042802</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://banknxt.com/category/fintech/</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356042802/link_1459356144972</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Fintech</value>
+            </property>
+            <property name="order">
+                <value type="double">500.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Fintech</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>dbfcfea1-0a9d-4bdc-8a98-1bf88c4ea293</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://banknxt.com/category/insurancetech/</finalUrl>
+        <name>link_1459356165998</name>
+        <parentItemName>link_1459356042802</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://banknxt.com/category/insurancetech/</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356042802/link_1459356165998</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Insurance Tech</value>
+            </property>
+            <property name="order">
+                <value type="double">750.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Insurance Tech</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>e8911f17-3b9c-420f-b90f-4df24fa6d141</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://banknxt.com/category/mobile-online/</finalUrl>
+        <name>link_1459356193626</name>
+        <parentItemName>link_1459356042802</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://banknxt.com/category/mobile-online/</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356042802/link_1459356193626</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Mobile &amp; Online</value>
+            </property>
+            <property name="order">
+                <value type="double">875.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Mobile &amp; Online</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>e4197f31-d159-4664-a529-ba777aa0c4fe</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://banknxt.com/category/payments/</finalUrl>
+        <name>link_1459356219210</name>
+        <parentItemName>link_1459356042802</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://banknxt.com/category/payments/</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356042802/link_1459356219210</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Payments</value>
+            </property>
+            <property name="order">
+                <value type="double">937.5</value>
+            </property>
+            <property name="title">
+                <value type="string">Payments</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>95881908-77f9-483e-a3d6-f629176f8a81</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://banknxt.com/category/security/</finalUrl>
+        <name>link_1459356238150</name>
+        <parentItemName>link_1459356042802</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://banknxt.com/category/security/</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356042802/link_1459356238150</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Security</value>
+            </property>
+            <property name="order">
+                <value type="double">968.75</value>
+            </property>
+            <property name="title">
+                <value type="string">Security</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>689c752e-e9b0-48b0-bd54-bb18576ffa20</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://banknxt.com/category/user-experience/</finalUrl>
+        <name>link_1459356256978</name>
+        <parentItemName>link_1459356042802</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://banknxt.com/category/user-experience/</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356042802/link_1459356256978</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">UX</value>
+            </property>
+            <property name="order">
+                <value type="double">984.375</value>
+            </property>
+            <property name="title">
+                <value type="string">UX</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>5efe4a9d-10d8-4c92-9851-aa446ebb4030</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://my.backbase.com</finalUrl>
+        <name>link_1459356275851</name>
+        <parentItemName>navroot_footer</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://my.backbase.com</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356275851</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">DOCUMENTATION</value>
+            </property>
+            <property name="order">
+                <value type="double">756.375</value>
+            </property>
+            <property name="title">
+                <value type="string">DOCUMENTATION</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>d19f9d39-48ec-42b7-adda-ccc421525618</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/docs/product-documentation</finalUrl>
+        <name>link_1459356321838</name>
+        <parentItemName>link_1459356275851</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/docs/product-documentation</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356275851/link_1459356321838</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">CXP</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property name="title">
+                <value type="string">CXP</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>3c3e100e-e1ee-44f5-8d6d-4b5fa0b05f77</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/docs/product-documentation/documentation/mobile-sdk/latest/about_mobile.html#/list</finalUrl>
+        <name>link_1459356343955</name>
+        <parentItemName>link_1459356275851</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/docs/product-documentation/documentation/mobile-sdk/latest/about_mobile.html#/list</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356275851/link_1459356343955</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Mobile SDK</value>
+            </property>
+            <property name="order">
+                <value type="double">500.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Mobile SDK</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>15aef260-4d0e-4b42-8c80-8b0e3ab14f0a</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/docs/product-documentation/documentation/launchpad/0.14/bk01.html#/list</finalUrl>
+        <name>link_1459356363865</name>
+        <parentItemName>link_1459356275851</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/docs/product-documentation/documentation/launchpad/0.14/bk01.html#/list</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356275851/link_1459356363865</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Launchpad</value>
+            </property>
+            <property name="order">
+                <value type="double">750.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Launchpad</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>58cbec34-a426-4727-97e3-8be7739e410a</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/docs/product-documentation/documentation/forms/5.10.1/ovrv.html</finalUrl>
+        <name>link_1459356380497</name>
+        <parentItemName>link_1459356275851</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/docs/product-documentation/documentation/forms/5.10.1/ovrv.html</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356275851/link_1459356380497</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Forms</value>
+            </property>
+            <property name="order">
+                <value type="double">875.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Forms</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>91d6b9a6-6e00-46e6-a5d5-4a3294ec8f9f</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/docs/how-to-guides</finalUrl>
+        <name>link_1459356404156</name>
+        <parentItemName>link_1459356275851</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/docs/how-to-guides</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356275851/link_1459356404156</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">How-To Guidelines</value>
+            </property>
+            <property name="order">
+                <value type="double">937.5</value>
+            </property>
+            <property name="title">
+                <value type="string">How-To Guidelines</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>00de0d16-a91a-4933-b570-ee7f1584722d</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/docs/methodologies</finalUrl>
+        <name>link_1459356421146</name>
+        <parentItemName>link_1459356275851</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/docs/methodologies</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356275851/link_1459356421146</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Methodologies</value>
+            </property>
+            <property name="order">
+                <value type="double">968.75</value>
+            </property>
+            <property name="title">
+                <value type="string">Methodologies</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>58d3d55c-dac0-4fb6-9a3b-83a92e663862</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/demos/videos</finalUrl>
+        <name>link_1459356465650</name>
+        <parentItemName>link_1459356275851</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/demos/videos</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459356275851/link_1459356465650</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Conferences</value>
+            </property>
+            <property name="order">
+                <value type="double">984.375</value>
+            </property>
+            <property name="title">
+                <value type="string">Conferences</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>92db5ee2-0137-4766-bc3b-a488609b72ad</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/about</finalUrl>
+        <name>link_1459361519541</name>
+        <parentItemName>navroot_footer</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/about</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459361519541</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">ABOUT US</value>
+            </property>
+            <property name="order">
+                <value type="double">25.5</value>
+            </property>
+            <property name="title">
+                <value type="string">ABOUT US</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>93d1264e-f325-4660-8635-4b552c4c0399</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/about</finalUrl>
+        <name>link_1459361539396</name>
+        <parentItemName>link_1459361519541</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/about</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459361519541/link_1459361539396</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Overview</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Overview</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>7513de4a-761f-4930-a444-c74d0819116b</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/about/customers</finalUrl>
+        <name>link_1459361571095</name>
+        <parentItemName>link_1459361519541</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/about/customers</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459361519541/link_1459361571095</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Customers</value>
+            </property>
+            <property name="order">
+                <value type="double">500.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Customers</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>e9253701-7a2a-40d5-b29e-100fb9e256c3</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/about/partners</finalUrl>
+        <name>link_1459361588715</name>
+        <parentItemName>link_1459361519541</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/about/partners</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459361519541/link_1459361588715</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Partners</value>
+            </property>
+            <property name="order">
+                <value type="double">750.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Partners</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>062973e8-a017-46a6-8b6d-13ff17efa9e0</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://careers.backbase.com/</finalUrl>
+        <name>link_1459361607964</name>
+        <parentItemName>link_1459361519541</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://careers.backbase.com/</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459361519541/link_1459361607964</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Careers</value>
+            </property>
+            <property name="order">
+                <value type="double">875.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Careers</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>c2b874b4-0bb8-4f0b-b52e-89285b8e01c1</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/about/press</finalUrl>
+        <name>link_1459361623783</name>
+        <parentItemName>link_1459361519541</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/about/press</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459361519541/link_1459361623783</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Press</value>
+            </property>
+            <property name="order">
+                <value type="double">937.5</value>
+            </property>
+            <property name="title">
+                <value type="string">Press</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>ec4f506f-32b3-43a1-a12c-dfa1fa5fba28</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/about/contact</finalUrl>
+        <name>link_1459361638286</name>
+        <parentItemName>link_1459361519541</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/about/contact</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459361519541/link_1459361638286</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Contact</value>
+            </property>
+            <property name="order">
+                <value type="double">968.75</value>
+            </property>
+            <property name="title">
+                <value type="string">Contact</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>ed1136fc-73d0-4b94-b364-d115d8b8e03f</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/backbase/knowledge</finalUrl>
+        <name>link_1459361742613</name>
+        <parentItemName>navroot_footer</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/backbase/knowledge</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459361742613</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">KNOWLEDGE</value>
+            </property>
+            <property name="order">
+                <value type="double">269.125</value>
+            </property>
+            <property name="title">
+                <value type="string">KNOWLEDGE</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>7b4a6556-3cff-4ea6-ae7d-f68fab537466</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/knowledge/overview</finalUrl>
+        <name>link_1459361758240</name>
+        <parentItemName>link_1459361742613</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/knowledge/overview</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459361742613/link_1459361758240</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Overview</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Overview</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>d4b2eb03-d85c-4875-ba43-921c87b7c3f4</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/knowledge/white-papers</finalUrl>
+        <name>link_1459361784836</name>
+        <parentItemName>link_1459361742613</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/knowledge/white-papers</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459361742613/link_1459361784836</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">White Papers</value>
+            </property>
+            <property name="order">
+                <value type="double">500.0</value>
+            </property>
+            <property name="title">
+                <value type="string">White Papers</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>15d503cb-b323-4c2f-a046-1c5526157368</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>http://www.backbase.com/knowledge/events</finalUrl>
+        <name>link_1459361803253</name>
+        <parentItemName>link_1459361742613</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">http://www.backbase.com/knowledge/events</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459361742613/link_1459361803253</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Events</value>
+            </property>
+            <property name="order">
+                <value type="double">750.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Events</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>68642ff3-0ccf-4c70-a3d1-9886929a1c74</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/</finalUrl>
+        <name>link_1459362599555</name>
+        <parentItemName>navroot_footer</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459362599555</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">MY.BACKBASE</value>
+            </property>
+            <property name="order">
+                <value type="double">390.9375</value>
+            </property>
+            <property name="title">
+                <value type="string">MY.BACKBASE</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>07bb1ea5-f782-4c82-938b-a13ff5168ba5</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/docs</finalUrl>
+        <name>link_1459362643849</name>
+        <parentItemName>link_1459362599555</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/docs</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459362599555/link_1459362643849</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Docs</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Docs</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>7e8b5e5c-e11c-44f4-bc00-1093683f1216</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/demos</finalUrl>
+        <name>link_1459362669383</name>
+        <parentItemName>link_1459362599555</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/demos</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459362599555/link_1459362669383</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Demos</value>
+            </property>
+            <property name="order">
+                <value type="double">500.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Demos</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>40b838ea-208d-4645-8781-3d925aa46a6f</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/qa</finalUrl>
+        <name>link_1459362685418</name>
+        <parentItemName>link_1459362599555</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/qa</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459362599555/link_1459362685418</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Q&amp;A</value>
+            </property>
+            <property name="order">
+                <value type="double">750.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Q&amp;A</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>43bf4c51-bf55-4920-95f8-9f2b023e9fe0</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>https://my.backbase.com/training</finalUrl>
+        <name>link_1459362700619</name>
+        <parentItemName>link_1459362599555</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="Url">
+                <value type="string">https://my.backbase.com/training</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/link_1459362599555/link_1459362700619</value>
+            </property>
+            <property name="itemType">
+                <value type="string">externalLink</value>
+            </property>
+            <property name="menuAccessibilityTitle">
+                <value type="string">Training</value>
+            </property>
+            <property name="order">
+                <value type="double">875.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Training</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>12a3c2e5-2621-4501-b3f5-8363220d63cd</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/page_1458664580640</finalUrl>
+        <name>link_6f226bc7-207d-44a2-836c-188b1a63d7d1</name>
+        <parentItemName>masterpage_root</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="ItemRef">
+                <value type="uuidRef">822e4530-4117-4909-bfb8-ee05064d91f2</value>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/page_1458664580640</value>
+            </property>
+            <property name="itemType">
+                <value type="string">page</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property name="sectionName">
+                <value type="string">page_1458664580640</value>
+            </property>
+            <property name="title">
+                <value type="string">Master Page</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>7c7f308e-dbb4-4206-9fd6-96ba36408637</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/BlankPage</finalUrl>
+        <name>link_eb109966-8b39-4e56-8ecf-496b2e2666ab</name>
+        <parentItemName>masterpage_root</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="ItemRef">
+                <value type="uuidRef">5157fbd8-6d4c-4b7f-a78a-d999ddaeb01d</value>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/BlankPage</value>
+            </property>
+            <property name="itemType">
+                <value type="string">page</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property name="sectionName">
+                <value type="string">BlankPage</value>
+            </property>
+            <property name="title">
+                <value type="string">Blank Page</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>024a2faf-dc80-4082-8f68-2c9762e7b56d</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/index</finalUrl>
+        <name>link_navrootMainMenu</name>
+        <parentItemName>navroot_mainmenu</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="ItemRef">
+                <value type="uuidRef">1d110107-6120-4093-abe2-32f7e203e519</value>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/index</value>
+            </property>
+            <property name="itemType">
+                <value type="string">page</value>
+            </property>
+            <property name="order">
+                <value type="double">10.0</value>
+            </property>
+            <property name="sectionName">
+                <value type="string">index</value>
+            </property>
+            <property name="title">
+                <value type="string">Home</value>
+            </property>
+        </properties>
+        <tags>
+            <tag blacklist="false" type="regular">home</tag>
+            <tag blacklist="false" type="tracking">home</tag>
+        </tags>
+        <uuid>8acdd5bd-307f-4d27-9037-07bad5621b1b</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/masterpage_root</finalUrl>
+        <name>masterpage_root</name>
+        <parentItemName>retail-demo</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">false</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/masterpage_root</value>
+            </property>
+            <property name="itemType">
+                <value type="string">menuHeader</value>
+            </property>
+            <property name="order">
+                <value type="double">30.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Master Pages</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>793d675d-b554-4275-8753-048a13e308bc</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/navroot_footer</finalUrl>
+        <name>navroot_footer</name>
+        <parentItemName>retail-demo</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="string">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/navroot_footer</value>
+            </property>
+            <property name="itemType">
+                <value type="string">menuHeader</value>
+            </property>
+            <property name="order">
+                <value type="double">21.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Footer Navigation</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>d3257481-f213-4be0-990c-9bc180d46245</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/main</finalUrl>
+        <name>navroot_mainmenu</name>
+        <parentItemName>retail-demo</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/main</value>
+            </property>
+            <property name="itemType">
+                <value type="string">menuHeader</value>
+            </property>
+            <property name="order">
+                <value type="double">10.0</value>
+            </property>
+            <property name="sectionName">
+                <value type="string">main</value>
+            </property>
+            <property name="title">
+                <value type="string">Main Navigation</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>2a66c759-1c69-46f4-81ed-351cb97c99ce</uuid>
+    </link>
+    <link>
+        <contextItemName>retail-demo</contextItemName>
+        <finalUrl>retail-demo/navroot_notinmenu</finalUrl>
+        <name>navroot_notinmenu</name>
+        <parentItemName>retail-demo</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="String"/>
+            </property>
+            <property name="SecuritySameAsParent">
+                <value type="boolean">true</value>
+            </property>
+            <property name="TemplateName">
+                <value type="String">link-default</value>
+            </property>
+            <property name="generatedUrl">
+                <value type="string">retail-demo/navroot_notinmenu</value>
+            </property>
+            <property name="itemType">
+                <value type="string">menuHeader</value>
+            </property>
+            <property name="order">
+                <value type="double">20.0</value>
+            </property>
+            <property name="title">
+                <value type="string">Not in Navigation</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>392f9a30-c627-4c18-a508-66f89784c7a4</uuid>
+    </link>
+</links>

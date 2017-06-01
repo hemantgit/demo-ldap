@@ -1,0 +1,52 @@
+<serverContentTypes>
+    <contenttype>
+        <contextItemName>[BBHOST]</contextItemName>
+        <name>content-structured-article</name>
+        <properties>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/contenttypes/[BBHOST]/content-structured-article/content-structured-article.json</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/contenttypes/[BBHOST]/content-structured-article/media/test-bundle.png</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Article</value>
+            </property>
+            <property name="typeDefinitionName">
+                <value type="string">content-structured-article</value>
+            </property>
+            <property label="Version" name="version" viewHint="designModeOnly">
+                <value type="string">1.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag blacklist="false" type="regular">structuredcontent</tag>
+        </tags>
+        <uuid>35128762-3743-4fcf-9762-4249b3effab1</uuid>
+    </contenttype>
+    <contenttype>
+        <contextItemName>[BBHOST]</contextItemName>
+        <name>content-structured-author</name>
+        <properties>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/contenttypes/[BBHOST]/content-structured-author/content-structured-author.json</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/contenttypes/[BBHOST]/content-structured-author/media/test-bundle.png</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Author</value>
+            </property>
+            <property name="typeDefinitionName">
+                <value type="string">content-structured-author</value>
+            </property>
+            <property label="Version" name="version" viewHint="designModeOnly">
+                <value type="string">1.0.0</value>
+            </property>
+        </properties>
+        <tags>
+            <tag blacklist="false" type="regular">structuredcontent</tag>
+        </tags>
+        <uuid>57283068-fedf-45f4-ac73-1ed0e1ed5305</uuid>
+    </contenttype>
+</serverContentTypes>

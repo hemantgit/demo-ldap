@@ -1,0 +1,77 @@
+<portalPages>
+    <page>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>BlankPage</extendedItemName>
+        <manageable>true</manageable>
+        <name>BlankPage</name>
+        <properties>
+            <property name="behaviors">
+                <value type="string">be.perspective.Manager be.portalClientExt.PortalManagerPreferencesForm</value>
+            </property>
+            <property name="bundleName">
+                <value type="string">dashboard</value>
+            </property>
+            <property name="client-template">
+                <value type="string">page</value>
+            </property>
+            <property name="createdBy">
+                <value type="string"/>
+            </property>
+            <property name="title">
+                <value type="string">Blank Page</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>5157fbd8-6d4c-4b7f-a78a-d999ddaeb01d</uuid>
+    </page>
+    <page>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>page-launchpad-base</extendedItemName>
+        <manageable>true</manageable>
+        <name>page_1458664580640</name>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">LaunchpadPageTemplate</value>
+            </property>
+            <property label="Canonical" name="bd_seo_canonical">
+                <value type="string"/>
+            </property>
+            <property label="Description" name="bd_seo_description">
+                <value type="string"/>
+            </property>
+            <property label="Locale" name="bd_seo_locale">
+                <value type="string"/>
+            </property>
+            <property label="Robots" name="bd_seo_robots">
+                <value type="string"/>
+            </property>
+            <property name="behaviors">
+                <value type="string">be.perspective.Manager be.portalClientExt.PortalManagerPreferencesForm</value>
+            </property>
+            <property name="bundleName">
+                <value type="string">dashboard</value>
+            </property>
+            <property label="Client Template" name="client-template">
+                <value type="string">page</value>
+            </property>
+            <property name="createdBy">
+                <value type="string">admin</value>
+            </property>
+            <property name="enableSEO">
+                <value type="string">true</value>
+            </property>
+            <property name="modifiedBy">
+                <value type="string">admin</value>
+            </property>
+            <property label="Theme" name="themeName" viewHint="text-input,designModeOnly,manager">
+                <value type="string">theme-retail</value>
+            </property>
+            <property name="title">
+                <value type="string">Master Page</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <type>page</type>
+        <uuid>822e4530-4117-4909-bfb8-ee05064d91f2</uuid>
+    </page>
+</portalPages>

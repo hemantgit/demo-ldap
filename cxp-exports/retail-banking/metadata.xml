@@ -1,0 +1,11 @@
+<backbaseArchiveDescriptor>
+    <description>Backbase Archive</description>
+    <exportDate>2016-11-07T16:17:00.489+01:00</exportDate>
+    <includesContent>true</includesContent>
+    <packageId>Portal-retail-demo-634fee70-a779-4ab8-a7f4-8c37b213be00</packageId>
+    <versionId>5.6.0</versionId>
+    <bbexport>
+        <exportBundle/>
+        <order>bundleId,bundleName,portals,portalPages,portalContainers,portalWidgets,pages,containers,widgets,bundleRights,links,deletedItemRefs,groups,serverPages,serverContainers,serverWidgets,templates,contentItemRefs,serverContentTypes,portalContentTypes,serverContentRepositories,portalContentRepositories</order>
+    </bbexport>
+</backbaseArchiveDescriptor>

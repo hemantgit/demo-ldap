@@ -1,0 +1,18 @@
+<portalContentTypes>
+    <contenttype>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>content-structured-article</extendedItemName>
+        <name>content-structured-article</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>a3d0ee5e-93da-4b4a-be93-3410ada3fed2</uuid>
+    </contenttype>
+    <contenttype>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>content-structured-author</extendedItemName>
+        <name>content-structured-author</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>8a98060a-c31c-4f7e-9549-656f9dfdb627</uuid>
+    </contenttype>
+</portalContentTypes>

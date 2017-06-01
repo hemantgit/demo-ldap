@@ -1,0 +1,1237 @@
+<widgets>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-accounts</extendedItemName>
+        <name>widget-accounts-1111578</name>
+        <parentItemName>panel-container-574896</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Select Default Account" name="selectDefaultAccount" viewHint="checkbox,admin,designModeOnly">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Widget layout" name="widgetLayout" viewHint="select-one,admin,designModeOnly">
+                <value type="string">tiles</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>09ae4cf4-c561-4c75-a728-8aafa08624af</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-addressbook</extendedItemName>
+        <name>widget-addressbook-7504306</name>
+        <parentItemName>panel-container-965906</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>cf53aadb-0c95-4a60-959e-737edf65557f</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-1772068</name>
+        <parentItemName>column-layout-4629557</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property name="link">
+                <value type="linkRef">9337f1f0-5ea3-4db0-ad2d-6ccbcb5b4417</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:1e1b2e3f-1539-4f32-91b5-cd91b743ea56</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460046628869</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>0f7386f2-8783-4736-a799-1f94707f4204</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-1894015</name>
+        <parentItemName>column-layout-8224490</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">2</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:b1f209f7-a3dc-405c-a339-d68fcc9a0eff</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045517355</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>3c2eac25-3f00-4587-9849-b60df4d0c695</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-1943804</name>
+        <parentItemName>column-layout-8224490</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:3c88bd93-822b-458c-959f-f59252737299</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045525808</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>96039547-6d66-4b4e-b18a-3e00d0fe033c</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-2216581</name>
+        <parentItemName>column-layout-2962309</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:0a2b7e77-afe0-4636-9ab3-d32b9d83e17d</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045431236</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>6b444e8f-d716-4992-a955-2ba1d6576c08</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-2514670</name>
+        <parentItemName>column-layout-8752724</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:f3a8c176-4e21-4e32-b4b4-318672d0386d</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045368734</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>6e77f99e-e13c-4075-9453-c1916cd1774f</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-340790</name>
+        <parentItemName>column-layout-7244889</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:564963b3-eb23-4565-918a-6b145a9a5256</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045446232</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>2bf5d93a-addd-4921-99af-bd5d492b3ce3</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-3440902</name>
+        <parentItemName>column-layout-4629557</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">2</value>
+            </property>
+            <property name="link">
+                <value type="linkRef">c793b913-2e4a-4f4f-a391-b9b45d370e4a</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:abaa9b8d-57bb-45a4-b81f-6d56c0daccf3</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045265453</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>4711b8cb-0faf-41b0-aad6-9bdf7edaf236</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-4083695</name>
+        <parentItemName>column-layout-8752724</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:e03526ec-84e4-4319-945a-1ee590d2ef18</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045362982</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>a03c46dd-8b52-471a-9e60-2fdf477d7a5b</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-4145239</name>
+        <parentItemName>column-layout-5254131</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:96fdb076-8c75-449c-a7ec-a4ee8295c01e</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045341004</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>84dc630c-e4ea-4cb4-beb6-f1166bbacfb7</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-4485681</name>
+        <parentItemName>column-layout-8166732</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:60bafa2b-839c-446c-9681-4fb98ca06ccd</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460046677717</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>39371ee8-1aad-49bb-9c9d-b3635ea149b4</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-4957471</name>
+        <parentItemName>column-layout-7244889</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">2</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:4a52b36e-4aa9-4045-8843-681efa1bd65f</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045465203</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>1b826ecc-da68-48e5-bdcb-5664f398e266</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-5073505</name>
+        <parentItemName>container_a8e78e9b-0965-4d19-96f7-b22ed333ba1c</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:5104c943-9597-4990-9884-758b7ebcc11c</value>
+            </property>
+            <property label="Height" name="height" viewHint="text-input,admin,designModeOnly">
+                <value type="string">200</value>
+            </property>
+            <property name="order">
+                <value type="double">3.0</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/callout.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045291132</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>f2d53717-bc6b-4655-81a3-2693f31702ce</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-5105129</name>
+        <parentItemName>column-layout-5254131</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:7295fe9d-418d-47a9-a32f-39c686d328ad</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045327906</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>a0f7f071-e692-429a-9073-a01c6ccc87a0</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-5554981</name>
+        <parentItemName>container_b5e76367-f0dd-4d5d-ad91-b06fd12b8a93</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:06733420-71d3-4d0d-8fa3-42fb7d36f904</value>
+            </property>
+            <property label="Height" name="height" viewHint="text-input,admin,designModeOnly">
+                <value type="string">150</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/background-image.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1458668875026</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>52eb5d7d-f98c-4af3-b732-73f2c4d63bdc</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-5904273</name>
+        <parentItemName>TargetingContainerChild-1458910089727</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:5766bc81-6342-4bbd-8219-f7a749afb30d</value>
+            </property>
+            <property label="Background position" name="bgImageContainer" viewHint="select-one,manager">
+                <value type="string">fullscreen</value>
+            </property>
+            <property label="Background Scroll" name="bgImageScroll" viewHint="select-one,manager">
+                <value type="string">fixed</value>
+            </property>
+            <property label="Background image size" name="bgImageSize" viewHint="select-one,manager">
+                <value type="string">cover</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/promo-banner.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045546897</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>c9b5a555-4754-4d2c-8a6e-f01a36ffbb9d</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-6404674</name>
+        <parentItemName>column-layout-8166732</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:4beae593-0392-437f-a1e6-edc200401031</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045485410</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>8f758981-3d96-49e8-b2a9-bc7f277b2032</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-6654167</name>
+        <parentItemName>TargetingContainerChild-1459365270580</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:8d06d118-c605-4ca8-aee2-b11fa20dc1d0</value>
+            </property>
+            <property label="Background position" name="bgImageContainer" viewHint="select-one,manager">
+                <value type="string">fullscreen</value>
+            </property>
+            <property label="Background Scroll" name="bgImageScroll" viewHint="select-one,manager">
+                <value type="string">fixed</value>
+            </property>
+            <property label="Background image size" name="bgImageSize" viewHint="select-one,manager">
+                <value type="string">cover</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/promo-banner.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045573644</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>bc96d240-4a1e-452b-bb92-599da8d31fcb</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-6777723</name>
+        <parentItemName>container_a6849d00-535f-4e99-af04-03fd1e93af60</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:ecf038f5-12db-43af-88ea-98f880d754c6</value>
+            </property>
+            <property label="Background image size" name="bgImageSize" viewHint="select-one,manager">
+                <value type="string">cover</value>
+            </property>
+            <property label="Height" name="height" viewHint="text-input,admin,designModeOnly">
+                <value type="string">150</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/background-image.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1458681945417</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>8bbbab20-9d39-4e9c-afb7-e3a11504d65f</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-6917692</name>
+        <parentItemName>column-layout-7244889</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:37113c95-3567-4ccb-8534-483d408f809c</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045452909</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>31287bb5-06de-46d7-9826-3236c25e5e8d</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-6964573</name>
+        <parentItemName>container_a8e78e9b-0965-4d19-96f7-b22ed333ba1c</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:6495213d-f49d-406d-be5e-04590fb2658f</value>
+            </property>
+            <property label="Background image size" name="bgImageSize" viewHint="select-one,manager">
+                <value type="string">cover</value>
+            </property>
+            <property label="Height" name="height" viewHint="text-input,admin,designModeOnly">
+                <value type="string">450</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1478531772891</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>545d6138-aebc-4d8b-9200-fd6a59346c16</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-7099672</name>
+        <parentItemName>column-layout-8224490</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:e6992021-c364-43b1-ab62-dd17ffb48a61</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045519958</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>a97807bc-69c7-474a-876e-c0bfb409cf77</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-7299469</name>
+        <parentItemName>container_97a13069-ac1c-439b-96e5-e12bb7ba9131</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:2d0e7ba9-eaec-4a3a-8179-a8230f6adb7a</value>
+            </property>
+            <property label="Background image size" name="bgImageSize" viewHint="select-one,manager">
+                <value type="string">cover</value>
+            </property>
+            <property label="Height" name="height" viewHint="text-input,admin,designModeOnly">
+                <value type="string">200</value>
+            </property>
+            <property name="order">
+                <value type="double">2.0</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/callout-with-image.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045504247</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>c197d73b-9bd9-4c1b-a6b9-870a71b82817</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-752452</name>
+        <parentItemName>TargetingContainerChild-1459365270574</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:02544f6a-2e30-4f48-a18b-c323c3daf018</value>
+            </property>
+            <property label="Background position" name="bgImageContainer" viewHint="select-one,manager">
+                <value type="string">fullscreen</value>
+            </property>
+            <property label="Background Scroll" name="bgImageScroll" viewHint="select-one,manager">
+                <value type="string">fixed</value>
+            </property>
+            <property label="Background image size" name="bgImageSize" viewHint="select-one,manager">
+                <value type="string">cover</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/promo-banner.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045559902</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>ad17d54a-7e7d-45a2-a718-1e6d52691886</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-7957378</name>
+        <parentItemName>container_a6849d00-535f-4e99-af04-03fd1e93af60</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:cb641b00-f3e2-4b77-b264-7a242653cc72</value>
+            </property>
+            <property label="Background image size" name="bgImageSize" viewHint="select-one,manager">
+                <value type="string">cover</value>
+            </property>
+            <property label="Height" name="height" viewHint="text-input,admin,designModeOnly">
+                <value type="string">200</value>
+            </property>
+            <property name="order">
+                <value type="double">2.0</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/callout-with-image.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045475119</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>c85d0a45-75ee-42b1-b6a8-b1d0b5e8c9d8</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-814102</name>
+        <parentItemName>column-layout-4629557</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="link">
+                <value type="linkRef">955e139a-a360-4937-ae67-97272c5678c0</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:a6b7d03d-73dd-4278-98df-ecb385809957</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045256334</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>ef7764dd-54d2-4bdf-981a-2dea0bceb86a</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-8297593</name>
+        <parentItemName>container_97a13069-ac1c-439b-96e5-e12bb7ba9131</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:18e3fcd5-e27d-4650-9ee6-88c532aedb3c</value>
+            </property>
+            <property label="Height" name="height" viewHint="text-input,admin,designModeOnly">
+                <value type="string">150</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/background-image.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1458682285970</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>967d85b5-2664-4e47-a158-f48a59977fd7</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-8544220</name>
+        <parentItemName>container-simple-page-layout-9911692</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:edb44a68-aa84-49dd-bc41-28b6d0deada1</value>
+            </property>
+            <property label="Background position" name="bgImageContainer" viewHint="select-one,manager">
+                <value type="string">fullscreen</value>
+            </property>
+            <property label="Background image size" name="bgImageSize" viewHint="select-one,manager">
+                <value type="string">cover</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/background-image.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1458680460213</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>d09bc4d0-f950-4ca9-b60d-333863c6f253</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-8590651</name>
+        <parentItemName>container_a8e78e9b-0965-4d19-96f7-b22ed333ba1c</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:2c1cd1bc-4faa-4f66-8fd6-878662326646</value>
+            </property>
+            <property label="Background image size" name="bgImageSize" viewHint="select-one,manager">
+                <value type="string">cover</value>
+            </property>
+            <property label="Height" name="height" viewHint="text-input,admin,designModeOnly">
+                <value type="string">200</value>
+            </property>
+            <property name="order">
+                <value type="double">2.0</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/callout-with-image.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045298610</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>d57589bf-5f98-42bd-8e34-c0183612f5e2</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-8878962</name>
+        <parentItemName>container_b5e76367-f0dd-4d5d-ad91-b06fd12b8a93</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:1c0f640f-aa6c-4d02-82a8-453ae1e269ad</value>
+            </property>
+            <property label="Height" name="height" viewHint="text-input,admin,designModeOnly">
+                <value type="string">200</value>
+            </property>
+            <property name="order">
+                <value type="double">2.0</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/callout-with-image.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045353735</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>c3b8b104-ecce-4a9a-8709-8560ca2e026e</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-9118110</name>
+        <parentItemName>TargetingContainerChild-1458680572890</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="banner">
+                <value type="contentRef">cs:@portalRepository:040d5382-df1a-4a10-8f60-df2f0005bf16</value>
+            </property>
+            <property label="Background position" name="bgImageContainer" viewHint="select-one,manager">
+                <value type="string">fullscreen</value>
+            </property>
+            <property label="Background Scroll" name="bgImageScroll" viewHint="select-one,manager">
+                <value type="string">fixed</value>
+            </property>
+            <property label="Background image size" name="bgImageSize" viewHint="select-one,manager">
+                <value type="string">cover</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/promo-banner.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045637831</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>c3aa6e61-4d80-4362-ace9-7fb942058ba9</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-9288643</name>
+        <parentItemName>column-layout-8752724</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">2</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:88d162b4-f55d-4ee6-9c67-36a82122986f</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045383813</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>06d5b7f0-408b-4a6d-82a6-ce43d6257a2d</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content-9963561</name>
+        <parentItemName>column-layout-2962309</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property name="media">
+                <value type="contentRef">cs:@portalRepository:44d6b428-32d6-4c1e-a686-b71d5a931b36</value>
+            </property>
+            <property label="Content Template" name="templateUrl" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/content-templates/templates/thumbnail.html</value>
+            </property>
+            <property name="widgetContentsUpdated">
+                <value type="string">1460045425987</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>6b56f014-fa65-46b5-a776-75f83b3e120c</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-alert-messages</extendedItemName>
+        <name>widget-alert-messages-2121439</name>
+        <parentItemName>panel-container-278750</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>451e55b9-81fc-48e3-b81f-b0b10b3ab814</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-budgets</extendedItemName>
+        <name>widget-budgets-4227312</name>
+        <parentItemName>panel-container-587921</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>1ff6a98d-853f-4496-a0c2-a3dd39169af9</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-card-details</extendedItemName>
+        <name>widget-card-details-4861922</name>
+        <parentItemName>panel-container-796380</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>5370da54-59b6-4f27-b825-86775ea0aee0</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-card-loyalty</extendedItemName>
+        <name>widget-card-loyalty-4448330</name>
+        <parentItemName>panel-container-58571</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>5c295fec-b0f7-4272-ad58-9330e9780e7d</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-card-overview</extendedItemName>
+        <name>widget-card-overview-2728996</name>
+        <parentItemName>panel-container-146286</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>0ecfa9a6-78f0-4635-ab27-26b6fe171a7e</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-category-spendings-chart</extendedItemName>
+        <name>widget-category-spendings-chart-5758014</name>
+        <parentItemName>panel-container-563646</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>a2b5ba65-fb20-4274-baba-d47efb9fe4ba</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-ebill-add</extendedItemName>
+        <name>widget-ebill-add-8154495</name>
+        <parentItemName>panel-container-887202</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>b07b207d-0a44-4d3e-8ea7-90741827d7e1</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-ebill-history</extendedItemName>
+        <name>widget-ebill-history-6714059</name>
+        <parentItemName>panel-container-582850</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>9c0dfa57-8630-4d74-ae9c-4bba7334073d</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-ebill-inbox</extendedItemName>
+        <name>widget-ebill-inbox-2879511</name>
+        <parentItemName>panel-container-803274</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>92a17e4f-62d9-4ed4-afa1-d0c1ea677c20</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-external-accounts</extendedItemName>
+        <name>widget-external-accounts-9094921</name>
+        <parentItemName>panel-container-5390</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>17bd04c8-1053-4956-b683-dcc858679750</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-login-multifactor</extendedItemName>
+        <name>widget-login-multifactor-8149958</name>
+        <parentItemName>container-simple-page-layout-9911692</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>9fae8a3f-025d-43b6-ba2b-ba39e340c945</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-new-transfer</extendedItemName>
+        <name>widget-new-transfer-8375507</name>
+        <parentItemName>panel-container-925464</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>81c406d0-f02b-4207-857a-25ffa0d4788c</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-p2p-preferences</extendedItemName>
+        <name>widget-p2p-preferences-5501279</name>
+        <parentItemName>panel-container-608016</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>6bf4b8d6-69f3-4ed6-99eb-b0405617d920</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-p2p-transactions</extendedItemName>
+        <name>widget-p2p-transactions-1916722</name>
+        <parentItemName>panel-container-224134</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>d5e233eb-2714-43e1-bba4-73fa804c1f74</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-places</extendedItemName>
+        <name>widget-places-3161504</name>
+        <parentItemName>panel-container-760043</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>cad272c2-1c61-4205-981b-59ee45d12833</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-profile-contact</extendedItemName>
+        <name>widget-profile-contact-8939301</name>
+        <parentItemName>panel-container-472169</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Places Data Source" name="saveUrl" viewHint="text-input,admin,designModeOnly">
+                <value type="string">$(servicesPath)/services/rest/v1/party-data-management/locations</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>dfa2ee8d-a083-48a2-b87f-e4cc1e29ecf2</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-profile-details</extendedItemName>
+        <name>widget-profile-details-5964484</name>
+        <parentItemName>panel-container-42610</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>0adf1387-7ddb-427b-92bf-ffd231196595</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-profile-portfolio</extendedItemName>
+        <name>widget-profile-portfolio-8521012</name>
+        <parentItemName>panel-container-430930</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>aa8aab87-bcc9-48e5-a0ef-86310231e73a</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-profile-preferences</extendedItemName>
+        <name>widget-profile-preferences-9356610</name>
+        <parentItemName>panel-container-506398</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>d9804c4e-0cf7-48b7-be72-be179813de4b</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-review-transfers</extendedItemName>
+        <name>widget-review-transfers-3868617</name>
+        <parentItemName>panel-container-193012</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>177c389e-cf9e-447f-9294-38581d2690ea</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-saving-goals</extendedItemName>
+        <name>widget-saving-goals-487742</name>
+        <parentItemName>panel-container-159877</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>413456e0-3960-4668-b6fb-aba0d0bebb12</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-secure-messaging</extendedItemName>
+        <name>widget-secure-messaging-1662382</name>
+        <parentItemName>panel-container-729157</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>df75abe8-acb0-492e-88bd-8dfdb1a9ef42</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-structured-content</extendedItemName>
+        <name>widget-structured-content-5748195</name>
+        <parentItemName>column-layout-4352740</parentItemName>
+        <properties>
+            <property label="Default Content" name="contentRef">
+                <value type="contentRef">cs:@portalRepository:831053e9-2c8c-4818-ac2c-c1dfaf6404c6</value>
+            </property>
+            <property label="Dynamic Page" name="linkBase" viewHint="user">
+                <value type="string">retail-demo/article</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>71604ae8-e7a7-44ab-aaf4-e049a4bea0f4</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-structured-content</extendedItemName>
+        <name>widget-structured-content-7179050</name>
+        <parentItemName>column-layout-4352740</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">2</value>
+            </property>
+            <property label="Default Content" name="contentRef">
+                <value type="contentRef">cs:@portalRepository:63599595-f497-460a-9642-c4a42efadec9</value>
+            </property>
+            <property label="Dynamic Page" name="linkBase" viewHint="user">
+                <value type="string">retail-demo/article</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>dc0b5f20-b3cc-44c0-8deb-1b3732b8ca9e</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-structured-content</extendedItemName>
+        <name>widget-structured-content-7219231</name>
+        <parentItemName>container_3c04d95c-1f63-4615-bd3e-f2ffb3454b30</parentItemName>
+        <properties>
+            <property label="Template" name="templateUrl" viewHint="select-one,manager" manageable="true">
+                <value type="string">$(contextRoot)/static/widgets/[BBHOST]/widget-structured-content/templates/article-full.html</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>29a250de-95c4-4779-98bb-f391f7198334</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-structured-content</extendedItemName>
+        <name>widget-structured-content-9924342</name>
+        <parentItemName>column-layout-4352740</parentItemName>
+        <properties>
+            <property name="area">
+                <value type="string">1</value>
+            </property>
+            <property label="Default Content" name="contentRef">
+                <value type="contentRef">cs:@portalRepository:39168b6d-b971-454d-b30b-d66284855d14</value>
+            </property>
+            <property label="Dynamic Page" name="linkBase" viewHint="user">
+                <value type="string">retail-demo/article</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>9c858266-7ee3-4aef-ac4f-0f1b23e6e6a5</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-transactions</extendedItemName>
+        <name>widget-transactions-6188965</name>
+        <parentItemName>panel-container-363451</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>91faf1e2-d8c8-4ad8-8611-4d795b488f2c</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-transactions</extendedItemName>
+        <name>widget-transactions-6201095</name>
+        <parentItemName>panel-container-674157</parentItemName>
+        <properties>
+            <property name="area" manageable="true">
+                <value type="string">0</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>ee9b0754-c15c-4df1-b738-276bd209f348</uuid>
+    </widget>
+</widgets>

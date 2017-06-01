@@ -1,0 +1,217 @@
+<pages>
+    <page>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>page_1458664580640</extendedItemName>
+        <name>index</name>
+        <parentItemName>retail-demo</parentItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">LaunchpadPageTemplate</value>
+            </property>
+            <property name="behaviors">
+                <value type="string">be.perspective.Manager be.portalClientExt.PortalManagerPreferencesForm</value>
+            </property>
+            <property name="bundleName">
+                <value type="string">dashboard</value>
+            </property>
+            <property label="Client Template" name="client-template">
+                <value type="string">page</value>
+            </property>
+            <property name="createdBy">
+                <value type="string"/>
+            </property>
+            <property name="modifiedBy">
+                <value type="string">admin</value>
+            </property>
+            <property name="title">
+                <value type="string">Home</value>
+            </property>
+        </properties>
+        <tags>
+            <tag blacklist="false" type="regular">home</tag>
+            <tag blacklist="false" type="tracking">home</tag>
+        </tags>
+        <type>page</type>
+        <uuid>1d110107-6120-4093-abe2-32f7e203e519</uuid>
+    </page>
+    <page>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>page_1458664580640</extendedItemName>
+        <name>page_1458668806731</name>
+        <parentItemName>retail-demo</parentItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">LaunchpadPageTemplate</value>
+            </property>
+            <property name="behaviors">
+                <value type="string">be.perspective.Manager be.portalClientExt.PortalManagerPreferencesForm</value>
+            </property>
+            <property name="bundleName">
+                <value type="string">dashboard</value>
+            </property>
+            <property label="Client Template" name="client-template">
+                <value type="string">page</value>
+            </property>
+            <property name="createdBy">
+                <value type="string">admin</value>
+            </property>
+            <property name="title">
+                <value type="string">Accounts &amp; Cards</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <type>page</type>
+        <uuid>64edcd8c-8a10-4839-ad25-2d66348da957</uuid>
+    </page>
+    <page>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>page_1458664580640</extendedItemName>
+        <name>page_1458680116309</name>
+        <parentItemName>retail-demo</parentItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">LaunchpadPageTemplate</value>
+            </property>
+            <property name="behaviors">
+                <value type="string">be.perspective.Manager be.portalClientExt.PortalManagerPreferencesForm</value>
+            </property>
+            <property name="bundleName">
+                <value type="string">dashboard</value>
+            </property>
+            <property label="Client Template" name="client-template">
+                <value type="string">page</value>
+            </property>
+            <property name="createdBy">
+                <value type="string">admin</value>
+            </property>
+            <property name="title">
+                <value type="string">My Banking</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <type>page</type>
+        <uuid>f26767ee-0fe3-4bd1-bd7d-6110e226f0f4</uuid>
+    </page>
+    <page>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>page_1458664580640</extendedItemName>
+        <name>page_1458680137168</name>
+        <parentItemName>retail-demo</parentItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">LaunchpadPageTemplate</value>
+            </property>
+            <property name="behaviors">
+                <value type="string">be.perspective.Manager be.portalClientExt.PortalManagerPreferencesForm</value>
+            </property>
+            <property name="bundleName">
+                <value type="string">dashboard</value>
+            </property>
+            <property label="Client Template" name="client-template">
+                <value type="string">page</value>
+            </property>
+            <property name="createdBy">
+                <value type="string">admin</value>
+            </property>
+            <property label="successView" name="successView">
+                <value type="string">/retail-demo/my-banking</value>
+            </property>
+            <property name="title">
+                <value type="string">Sign in</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <type>page</type>
+        <uuid>b0f19eda-bc4b-4a10-ab80-99c20212d80e</uuid>
+    </page>
+    <page>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>page_1458664580640</extendedItemName>
+        <name>page_1458681809902</name>
+        <parentItemName>retail-demo</parentItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">LaunchpadPageTemplate</value>
+            </property>
+            <property name="behaviors">
+                <value type="string">be.perspective.Manager be.portalClientExt.PortalManagerPreferencesForm</value>
+            </property>
+            <property name="bundleName">
+                <value type="string">dashboard</value>
+            </property>
+            <property label="Client Template" name="client-template">
+                <value type="string">page</value>
+            </property>
+            <property name="createdBy">
+                <value type="string">admin</value>
+            </property>
+            <property name="title">
+                <value type="string">Savings</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <type>page</type>
+        <uuid>6e4a98db-87f1-4809-a845-d2da147df97e</uuid>
+    </page>
+    <page>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>page_1458664580640</extendedItemName>
+        <name>page_1458682228409</name>
+        <parentItemName>retail-demo</parentItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">LaunchpadPageTemplate</value>
+            </property>
+            <property name="behaviors">
+                <value type="string">be.perspective.Manager be.portalClientExt.PortalManagerPreferencesForm</value>
+            </property>
+            <property name="bundleName">
+                <value type="string">dashboard</value>
+            </property>
+            <property label="Client Template" name="client-template">
+                <value type="string">page</value>
+            </property>
+            <property name="createdBy">
+                <value type="string">admin</value>
+            </property>
+            <property name="title">
+                <value type="string">Home Loans</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <type>page</type>
+        <uuid>814b2524-a78e-45f1-82df-b9e31404a9f2</uuid>
+    </page>
+    <page>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>page_1458664580640</extendedItemName>
+        <name>page_1458682939888</name>
+        <parentItemName>retail-demo</parentItemName>
+        <properties>
+            <property name="TemplateName">
+                <value type="string">LaunchpadPageTemplate</value>
+            </property>
+            <property name="behaviors">
+                <value type="string">be.perspective.Manager be.portalClientExt.PortalManagerPreferencesForm</value>
+            </property>
+            <property name="bundleName">
+                <value type="string">dashboard</value>
+            </property>
+            <property label="Client Template" name="client-template">
+                <value type="string">page</value>
+            </property>
+            <property name="createdBy">
+                <value type="string">admin</value>
+            </property>
+            <property name="modifiedBy">
+                <value type="string">admin</value>
+            </property>
+            <property name="title">
+                <value type="string">Article</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <type>page</type>
+        <uuid>6d81772a-5b64-48fb-8cdb-55550ebf682c</uuid>
+    </page>
+</pages>

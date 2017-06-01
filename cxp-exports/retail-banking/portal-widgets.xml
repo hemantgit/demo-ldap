@@ -1,0 +1,391 @@
+<portalWidgets>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-accounts</extendedItemName>
+        <name>widget-accounts</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>8baa52e4-7f67-4568-ab18-049a1ca9e82c</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-addressbook</extendedItemName>
+        <name>widget-addressbook</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>97bf1415-cfff-4cfe-befe-5164a00e9d07</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-advanced-content</extendedItemName>
+        <name>widget-advanced-content</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>8a36ed37-3661-4f4d-beb9-17d6ab0ec4d6</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-alert-messages</extendedItemName>
+        <name>widget-alert-messages</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>ce310cfe-b276-4b1f-a052-f946338d054c</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-budgets</extendedItemName>
+        <name>widget-budgets</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>616a39cb-9caa-483a-9c3a-68aa8ebcc6dd</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-card-details</extendedItemName>
+        <name>widget-card-details</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>411a0087-2835-4993-93a7-76a71dac8c79</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-card-loyalty</extendedItemName>
+        <name>widget-card-loyalty</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>745696b9-2950-4ba8-b891-0e8cbb8582d3</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-card-overview</extendedItemName>
+        <name>widget-card-overview</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>58c3e1dd-15d6-45f6-9282-6cb1c71f119b</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-category-spendings-chart</extendedItemName>
+        <name>widget-category-spendings-chart</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>a1451255-a4be-4e24-9cf5-0bec2573df48</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-ebill-add</extendedItemName>
+        <name>widget-ebill-add</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>0b5b2625-efb4-4a89-b72a-cf666b8ae8df</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-ebill-history</extendedItemName>
+        <name>widget-ebill-history</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>4f0b18e1-564f-4612-934c-1edb4c82c5ce</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-ebill-inbox</extendedItemName>
+        <name>widget-ebill-inbox</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>837c6c36-8c89-4212-a416-03b1f8bf65ee</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-external-accounts</extendedItemName>
+        <name>widget-external-accounts</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>e79d0454-3341-4883-b59f-66086ca09cba</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-login-multifactor</extendedItemName>
+        <name>widget-login-multifactor</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>8d056fdd-26db-43e0-a164-d9587f1967de</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-navbar-advanced</extendedItemName>
+        <name>widget-navbar-advanced</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>959820a2-0e08-4189-a691-ee4183c0e290</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-navbar-advanced</extendedItemName>
+        <manageable>false</manageable>
+        <name>widget-navbar-advanced-5450931</name>
+        <parentItemName>page_1458664580640</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="string"/>
+            </property>
+            <property name="TemplateName">
+                <value type="string">Standard_Widget</value>
+            </property>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Container Type" name="containerType" viewHint="select-one,designModeOnly,manager">
+                <value type="string">fixed</value>
+            </property>
+            <property label="Icon Class" name="icon">
+                <value type="string"/>
+            </property>
+            <property label="Icon for Launcher Menu" name="launcherIcon" viewHint="select-one,manager,designModeOnly">
+                <value type="string">arrow-left</value>
+            </property>
+            <property label="Locale" name="locale">
+                <value type="string">en</value>
+            </property>
+            <property label="Logo Url" name="logoURL" viewHint="text-input,manager,designModeOnly">
+                <value type="string">$(contextRoot)/static/widgets/[BBHOST]/widget-navbar-advanced/media/backbase-web-logo-alt.png</value>
+            </property>
+            <property label="Mobile Logo Url" name="mobileLogoURL" viewHint="text-input,manager,designModeOnly">
+                <value type="string">$(contextRoot)/static/widgets/[BBHOST]/widget-navbar-advanced/media/backbase-mobile-logo-alt.png</value>
+            </property>
+            <property label="Navigation Depth" name="navDepth" viewHint="select-one,manager,designModeOnly">
+                <value type="string">1</value>
+            </property>
+            <property label="Navigation root to display the nav links from" name="navRoot" viewHint="text-input,manager,designModeOnly">
+                <value type="linkRef">2a66c759-1c69-46f4-81ed-351cb97c99ce</value>
+            </property>
+            <property label="Show or hide the NavBar" name="navShow" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Set the Navbar sticky" name="navSticky" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Template" name="navTemplate" viewHint="text-input,designModeOnly,manager">
+                <value type="string">$(contextRoot)/static/widgets/[BBHOST]/widget-navbar-advanced/templates/mustache_top_level.html</value>
+            </property>
+            <property label="Navigation menu icon animation hook" name="navigationIconAnimationHook" viewHint="text-input,manager,designModeOnly">
+                <value type="string">arrow</value>
+            </property>
+            <property name="order">
+                <value type="double">0.0</value>
+            </property>
+            <property label="Preferences Service" name="preferenceService" viewHint="admin,designModeOnly">
+                <value type="string">$(servicesPath)/services/rest/v1/party-data-management/party</value>
+            </property>
+            <property label="Profile Image Background Color" name="profileImgBg" viewHint="admin,designModeOnly">
+                <value type="string">#CCC</value>
+            </property>
+            <property label="Profile Title Link" name="profileTitleLink" viewHint="admin,designModeOnly">
+                <value type="string">my-banking</value>
+            </property>
+            <property label="Page Scroll settings" name="scrollSetting" viewHint="select-one,manager,designModeOnly">
+                <value type="string">normal</value>
+            </property>
+            <property label="Show Notifications badges inside the Launcher Toggle" name="showNotificationsBadge" viewHint="checkbox,manager,designModeOnly">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Show Page Title" name="showPageTitle" viewHint="checkbox,designModeOnly,manager">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Show navigation root" name="showParent" viewHint="checkbox,manager,designModeOnly">
+                <value type="boolean">false</value>
+            </property>
+            <property label="Show profile info" name="showProfileInfo" viewHint="checkbox,manager,designModeOnly">
+                <value type="boolean">true</value>
+            </property>
+            <property label="Sign-in Link" name="signinLink" viewHint="text-input,admin,designModeOnly">
+                <value type="string">sign-in</value>
+            </property>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/widgets/[BBHOST]/widget-navbar-advanced/index.html</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/widgets/[BBHOST]/widget-navbar-advanced/icon.png</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Navigation - Advanced</value>
+            </property>
+            <property label="Version" name="version" viewHint="designModeOnly">
+                <value type="string">3.2.8</value>
+            </property>
+            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/chromes/blank/chrome-blank.html</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>e12837e4-2345-4a49-a028-51710f51fc43</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-navfooter</extendedItemName>
+        <name>widget-navfooter</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>8280c48d-f794-4ef2-bc5c-beb029ccdef0</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-navfooter</extendedItemName>
+        <manageable>false</manageable>
+        <name>widget-navfooter-7876226</name>
+        <parentItemName>page_1458664580640</parentItemName>
+        <properties>
+            <property name="Description">
+                <value type="string"/>
+            </property>
+            <property name="TemplateName">
+                <value type="string">Standard_Widget</value>
+            </property>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property label="Icon Class" name="icon">
+                <value type="string"/>
+            </property>
+            <property label="Locale" name="locale">
+                <value type="string">en</value>
+            </property>
+            <property label="Menu Depth" name="navDepth" viewHint="select-one,manager,designModeOnly">
+                <value type="long">2</value>
+            </property>
+            <property label="Navigation root link" name="navRoot" viewHint="text-input,manager,designModeOnly">
+                <value type="linkref">d3257481-f213-4be0-990c-9bc180d46245</value>
+            </property>
+            <property label="Template" name="navTemplate" viewHint="text-input,manager,designModeOnly">
+                <value type="string">$(contextRoot)/static/widgets/[BBHOST]/widget-navfooter/templates/mustache_top_level.html</value>
+            </property>
+            <property name="order">
+                <value type="double">2.0</value>
+            </property>
+            <property label="Show navigation root" name="showParent" viewHint="checkbox,manager,designModeOnly">
+                <value type="boolean">false</value>
+            </property>
+            <property name="src">
+                <value type="string">$(contextRoot)/static/widgets/[BBHOST]/widget-navfooter/index.html</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/widgets/[BBHOST]/widget-navfooter/icon.png</value>
+            </property>
+            <property label="Title" name="title">
+                <value type="string">Navigation - Footer</value>
+            </property>
+            <property label="Version" name="version" viewHint="designModeOnly">
+                <value type="string">3.0.7</value>
+            </property>
+            <property label="Widget Chrome" name="widgetChrome" viewHint="select-one,admin,designModeOnly">
+                <value type="string">$(contextRoot)/static/features/[BBHOST]/chromes/blank/chrome-blank.html</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>b3b33d7e-7f32-469e-9440-82aa77230320</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-new-transfer</extendedItemName>
+        <name>widget-new-transfer</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>93c857b1-3503-4a4f-9799-5c487b592d2f</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-p2p-preferences</extendedItemName>
+        <name>widget-p2p-preferences</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>a1d4ce07-f905-4361-a14c-ef8bbe008a8d</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-p2p-transactions</extendedItemName>
+        <name>widget-p2p-transactions</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>7d0eeda2-18b8-4981-a4e9-581963a3aa2e</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-places</extendedItemName>
+        <name>widget-places</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>7c444366-8b55-4b3d-bffa-45e257f587cf</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-profile-contact</extendedItemName>
+        <name>widget-profile-contact</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>91c0fbde-8b3b-4623-a44b-acca9af7789d</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-profile-details</extendedItemName>
+        <name>widget-profile-details</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>55f6be53-cb37-4fe8-9ca8-2d00407467de</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-profile-portfolio</extendedItemName>
+        <name>widget-profile-portfolio</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>90e649b8-e084-4538-8a85-76697435e38c</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-profile-preferences</extendedItemName>
+        <name>widget-profile-preferences</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>e8337c9e-d8ef-4791-a3d1-a0c596896675</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-review-transfers</extendedItemName>
+        <name>widget-review-transfers</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>de567412-194d-4948-bdf2-a843b207b0de</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-saving-goals</extendedItemName>
+        <name>widget-saving-goals</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>41dd94b2-0932-4c98-a655-6e423683a80e</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-secure-messaging</extendedItemName>
+        <name>widget-secure-messaging</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>b1c984ed-3e09-4f0f-9a04-365d8c3cff5b</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-structured-content</extendedItemName>
+        <name>widget-structured-content</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>6be1de7b-2184-4010-a4b3-019d177eab9d</uuid>
+    </widget>
+    <widget>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>widget-transactions</extendedItemName>
+        <name>widget-transactions</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>9d021c53-a447-4f44-a9be-1824ee6fad17</uuid>
+    </widget>
+</portalWidgets>

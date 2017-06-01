@@ -1,0 +1,125 @@
+<portalContainers>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>Manageable_Area_Closure</extendedItemName>
+        <manageable>true</manageable>
+        <name>Manageable_Area_BlankPage</name>
+        <parentItemName>BlankPage</parentItemName>
+        <properties>
+            <property name="title" manageable="true">
+                <value type="string"/>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>0d078061-a2ca-4826-b79e-6d265d631ca0</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>Manageable_Area_Closure</extendedItemName>
+        <manageable>true</manageable>
+        <name>Manageable_Area_Closure</name>
+        <properties>
+            <property name="title" manageable="true">
+                <value type="string">Manageable Area</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>f5a13165-d686-47b2-bd75-29a7120de7f9</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>Manageable_Area_Closure</extendedItemName>
+        <name>Manageable_Area_Closure-9087711</name>
+        <parentItemName>page_1458664580640</parentItemName>
+        <properties>
+            <property label="Description" name="Description">
+                <value type="string">Area that will be manageable on regular pages. Items can be reordered, added and deleted.</value>
+            </property>
+            <property name="TemplateName">
+                <value type="string">ManageableArea</value>
+            </property>
+            <property name="area">
+                <value type="string">0</value>
+            </property>
+            <property name="autoExtend">
+                <value type="boolean">true</value>
+            </property>
+            <property name="config">
+                <value type="string">$(contextRoot)/static/backbase.com.2013.aurora/containers/ManageableArea/config.xml</value>
+            </property>
+            <property name="isManageableArea">
+                <value type="boolean">true</value>
+            </property>
+            <property name="order">
+                <value type="double">1.0</value>
+            </property>
+            <property name="thumbnailUrl">
+                <value type="string">$(contextRoot)/static/backbase.com.2013.aurora/containers/ManageableArea/media/ManageableArea-icon.png</value>
+            </property>
+            <property name="title">
+                <value type="string">Manageable Area</value>
+            </property>
+            <property name="viewNamespace">
+                <value type="string">http://backbase.com/2013/aurora</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>9945e622-0099-482e-8662-7b65b673f86d</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>TargetingContainer</extendedItemName>
+        <name>TargetingContainer</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>876bf22c-d054-47b2-a381-0d6a3a82661f</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>TargetingContainerChild</extendedItemName>
+        <name>TargetingContainerChild</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>6bc03568-9536-4817-b8b2-fbb9a6d92861</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>column-layout</extendedItemName>
+        <name>column-layout</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>b3f73877-0350-474c-a1c3-eb5e19fc8c20</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>container-simple-page-layout</extendedItemName>
+        <name>container-simple-page-layout</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>e8397736-8694-4205-976a-cf37ac0f6988</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>launcher-deck-container</extendedItemName>
+        <name>launcher-deck-container</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>8e260fd7-97f3-472a-a0dc-b8e7c7db1faf</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>panel-container</extendedItemName>
+        <name>panel-container</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>b4224831-6162-4f7e-b5e5-7a662b19cbd7</uuid>
+    </container>
+    <container>
+        <contextItemName>retail-demo</contextItemName>
+        <extendedItemName>tabs-container</extendedItemName>
+        <name>tabs-container</name>
+        <properties></properties>
+        <tags></tags>
+        <uuid>73ad7649-681b-4ddd-a418-d4d1bef2672a</uuid>
+    </container>
+</portalContainers>

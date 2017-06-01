@@ -1,0 +1,22 @@
+<portalContentRepositories>
+    <contentRepository>
+        <contextItemName>retail-demo</contextItemName>
+        <name>portalRepository</name>
+        <properties>
+            <property name="Description">
+                <value type="string">Repository for portal retail-demo</value>
+            </property>
+            <property name="generatedContentDir">
+                <value type="string">/Generated content/</value>
+            </property>
+            <property name="repositoryId">
+                <value type="string">ccd0e001-44e5-4387-9424-5867b3c86018</value>
+            </property>
+            <property name="title">
+                <value type="string">retail-demo Repository</value>
+            </property>
+        </properties>
+        <tags></tags>
+        <uuid>b2c123fb-16fd-4a75-8b84-f01646d28b65</uuid>
+    </contentRepository>
+</portalContentRepositories>
