@@ -1,0 +1,6 @@
+<div class="{{element.classList}} container_block" ng-class="{'show_underline': collapse}"  story-selector >
+    <div ng-if="element.get('displayName')" class="story-selector__title container__title">
+        <div class="selector_title container__title__column"></div><h3 ng-bind="element.get('displayName')"></h3>
+    </div>
+    <children></children>
+</div>

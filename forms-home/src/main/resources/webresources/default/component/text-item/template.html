@@ -1,0 +1,5 @@
+<div class="{{(element.classList +' '+ element.contentStyle )}}">
+	<!-- <children></children> -->
+	<p id="{{element._e.key}}" ng-bind-html="element._e.nodes | formatContentItem" class="{{element._e.styles | beautify}}">
+	</p>
+</div>

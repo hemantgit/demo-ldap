@@ -1,0 +1,13 @@
+<div ng-repeat="breadcrumbs">
+    <ol class="bb-breadcrumbs bb-breadcrumbs-{{children.length}} breadcrumb {{parentClassNames}}">
+        <li class="bb-breadcrumb"
+            ng-class="{ 'past': child.isPast, 'active': child.isCurrent, 'future': child.isFuture, 'last': $last}"
+            ng-repeat="child in children track by $index"
+            data-flowname="{{child.properties.flowName}}"
+            ng-attr-data-sessionid="sessionId">
+            <span class="hidden-xs hidden-sm">{{child.properties.displayName}}</span>
+            <div ng-if="child.isFuture" class="triangle"></div>
+            <div ng-if="child.isCurrent" class="square"></div>
+        </li>
+    </ol>
+</div>

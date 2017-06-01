@@ -1,0 +1,14 @@
+<div class="{{element.classList}} radio-group"
+        name="{{element.name}}"
+        id="{{element.key}}"
+        ng-model="element.value[0]"
+        ng-required="{{element.required}}"
+        ng-class="{'has-error':element.hasError}"
+        ng-disabled="element.disabled || element.readonly || (element.hasError && element.hasStyle('FormReadOnlyOnError'))"
+        ng-readonly="element.readonly">
+         
+        <div ng-repeat="option in element.options" class="radio-item">
+                <input  type="radio" name="{{element.key}}+radio_pick" ng-model="element.value[0]" ng-value="option.value" ng-change="$emit('update')">
+                <span class="radio-item__name">{{option.value}}</span>
+        </div>
+</div>

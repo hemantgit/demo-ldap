@@ -1,0 +1,11 @@
+<div ng-disabled="element.disabled || element.readOnly"  ng-readonly="element.readOnly"  ng-class="{'has-error':element.hasError}"
+     id="{{element.key}}" class="form-group" class="{{::element.classList}}">
+    <!-- Field label -->
+    <label for="{{element.key}}" class="col-sm-3 control-label">
+        {{element.label}}
+        <span class="opt" ng-show="!element.required">{{$ctrl.form.lookupMessage('optionalField')}}</span>
+    </label>
+    <div class="col-md-9">
+        <children></children>
+    </div>
+</div>

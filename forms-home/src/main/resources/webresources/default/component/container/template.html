@@ -1,0 +1,7 @@
+<div class="{{element.classList}} container_block" ng-class="{'show_underline': ((!collapse) && element.get('displayName')) }" >
+    <div ng-if="element.get('displayName')" class="container__title">
+        <div class="container__title__column"></div>
+        <h3 ng-bind="element.get('displayName')"></h3>
+    </div>
+    <children></children>
+</div>

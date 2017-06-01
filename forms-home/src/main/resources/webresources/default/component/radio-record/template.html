@@ -1,0 +1,24 @@
+<div class="{{element.classList}}" radio-record
+     name="{{element.name}}"
+     id="{{element.key}}"
+     ng-model="element.value[0]"
+     ng-required="{{element.required}}"
+     ng-class="{'has-error':element.hasError}"
+     ng-disabled="element.disabled || element.readonly || (element.hasError && element.hasStyle('FormReadOnlyOnError'))"
+     ng-readonly="element.readonly">
+
+
+    <div ng-repeat="option in element.options" class="radio_record__item" ng-value="option.value" ng-class="{active : (selectedValue == option.value)}" ng-click="itemSelected($event,option)"  >
+        <div class="white_bar"></div>
+        <div class="selection_bar"></div>
+        <div class="radio_record__item__content"  >
+            <span class="icon icon_select_option"></span>
+            <h4>{{option.displayValue}}</h4>
+            <div class="pull-right arrow-group">
+                <div class="vertical_divider"></div>
+                <span class="icon icon-chevron-right"></span>
+            </div>
+
+        </div>
+    </div>
+</div>

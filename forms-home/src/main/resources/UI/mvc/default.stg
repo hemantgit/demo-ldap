@@ -1,0 +1,55 @@
+ delimiters "#", "#"
+
+main(context) ::= <<
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+
+        <!-- Theme -->
+        <link href="#context.webResourceBasePath#bower_components/#context.theme#/dist/styles/base.min.css" rel="stylesheet" type="text/css">
+
+        <!-- Dependecies CSS -->
+        <link href="#context.webResourceBasePath#bower_components/seiyria-bootstrap-slider/dist/css/bootstrap-slider.min.css" rel="stylesheet" type="text/css">
+        <link href="#context.webResourceBasePath#bower_components/bootstrap-datepicker/dist/css/bootstrap-datetimepicker3.min.css" rel="stylesheet" type="text/css">
+
+        <!-- Dependencies -->
+        <script src="#context.webResourceBasePath#bower_components/jquery/dist/jquery.js"></script>
+        <script src="#context.webResourceBasePath#bower_components/moment/moment.js"></script>
+        <script src="#context.webResourceBasePath#bower_components/angular/angular.js"></script>
+        <script src="#context.webResourceBasePath#bower_components/angular-sanitize/angular-sanitize.js"></script>
+        <script src="#context.webResourceBasePath#bower_components/ng-file-upload/ng-file-upload.min.js"></script>
+
+        <script src="#context.webResourceBasePath#bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="#context.webResourceBasePath#bower_components/typeahead.js/dist/typeahead.bundle.js"></script>
+        <script src="#context.webResourceBasePath#bower_components/seiyria-bootstrap-slider/dist/bootstrap-slider.js"></script>
+        <script src="#context.webResourceBasePath#bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+
+        <!-- Google recaptcha -->
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+        <!-- Core -->
+        <script src="#context.webResourceBasePath#dist/forms-angular-ui.js"></script>
+        <script src="#context.webResourceBasePath#dist/forms-angular-ui.tpl.js"></script>
+
+        <script>
+            var formsUi = angular.module('forms-ui');
+
+            formsUi.config(function($provide, $logProvider) {
+                var debug = #context.developmentMode#;
+                $logProvider.debugEnabled(debug);
+                $provide.value('debugEnabled', debug);
+            });
+        </script>
+    </head>
+
+    <body ng-app="forms-ui" class="container">
+        <bb-form config="{sessionId: '#context.sessionId#', runtimePath: '../../../..'}"></bb-form>
+    </body>
+</html>
+
+>>

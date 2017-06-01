@@ -1,0 +1,12 @@
+<select class="form-control"
+        name="{{element.name}}"
+        id="{{element.key}}"
+        ng-model="element.value[0]"
+        ng-options="option.value as option.displayValue for option in element.options"
+        ng-change="$emit('update')"
+        ng-disabled="element.disabled || element.readonly || (element.hasError && element.hasStyle('FormReadOnlyOnError'))"
+        ng-readonly="element.readonly">
+        <option value="" disabled selected style="display: none;">{{$ctrl.form.lookupMessage('selectOne')}}</option>
+</select>
+
+

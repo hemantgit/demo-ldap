@@ -1,0 +1,9 @@
+<a class="btn btn-primary"
+   name="{{element.name}}"
+   id="{{element.key}}"
+   type="button" ng-disabled="element.disabled"
+   ng-click="$emit('update')"
+   ng-href="../api/document/{{element.get('parameters')['document-type']}}/{{element.get('parameters')['document-name']}}/undefined">
+        <i ng-if="(element.styles | filter: 'fa_').length" class="{{element.styles | filter: 'fa_' | beautify}}"></i>
+        {{element.text}}
+</a>

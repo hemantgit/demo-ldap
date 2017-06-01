@@ -1,0 +1,24 @@
+<div field ng-disabled="element.disabled || element.readOnly"  ng-readonly="element.readOnly"  ng-class="{'has-error':element.hasError,'read-only':element.readOnly}" id="{{element.key}}"
+     class="form-group" class="{{::element.classList}}">
+    <!-- Field label -->
+    <label for="{{element.key}}" class="col-md-3 col-sm-12 control-label">
+        {{element.label}}
+        <span class="opt" ng-show="!element.required">{{$ctrl.form.lookupMessage('optionalField')}}</span>
+    </label>
+    <!-- Field control -->
+    <div class="col-sm-12 col-md-9" ng-class="{ 'has-error': (element.messages.length > 0) }">
+        <control></control>
+        <div ng-if="element.description" class="control-description">
+            <span class="icon icon-circle-info"></span>
+            <span class="description-body text-muted">{{element.description}}</span>
+        </div>
+        <div ng-if="element.messages.length > 0" class="control-description control-errors">
+            <div ng-repeat="error in element.messages">
+                <span class="icon icon-circle-delete"></span>
+                <span class="description-body text-muted">{{::error.text}}</span>
+            </div>
+
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,15 @@
+<div recaptcha class="{{element.classList}}" name="{{element.name}}" id="{{element.key}}">
+    <h3 ng-if="element.get('displayName')" ng-bind="element.get('displayName')"></h3>
+    <div class="google_captcha_holder"  data-sitekey="{{siteKey}}"></div>
+
+    <script type="text/javascript">
+
+
+        var onloadCallback = function() {
+            // Renders the HTML element with id 'example1' as a reCAPTCHA widget.
+            // The id of the reCAPTCHA widget is assigned to 'widgetId1'.
+            console.log("asad");
+
+        };
+    </script>
+</div>

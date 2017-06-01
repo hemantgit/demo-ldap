@@ -1,0 +1,13 @@
+<input type="text"
+    class="form-control"
+    id="{{element.key}}"
+    name="{{element.name}}"
+    placeholder="{{element.FormAttributeSuggestion}}"
+    ng-disabled="element.disabled"
+    ng-readonly="element.readOnly"
+    ng-class="{ 'empty': (!element.values || element.values=='') }"
+    ng-blur="$emit('update')"
+    ng-model="element.value[0]"
+    ng-required="element.required"
+    maxlength="{{element.maxLength}}"
+    novalidate />

@@ -1,0 +1,7 @@
+<input type="text" class="form-control typeahead" name="{{element.name}}" id="{{element.key}}"
+       autocomplete
+       element="element"
+       ng-disabled="{{ element.disabled || element.readonly || (element.messages[0].type != 'ERROR' && hasStyle(element, 'FormReadOnlyOnError')) }}"
+       ng-class="{'empty':(!element.values || element.values=='')}"
+       ng-readonly="{{element.readonly}}"
+       placeholder="{{element.questionText}}">

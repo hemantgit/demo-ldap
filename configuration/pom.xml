@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="
+        http://maven.apache.org/POM/4.0.0
+        http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>mx.backbase</groupId>
+        <artifactId>demo-ldap</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <artifactId>configuration</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Backbase CXP :: Configuration</name>
+    <description>A module that contains all Backbase CXP configurations.</description>
+
+    <properties>
+        <project.root>${basedir}/..</project.root>
+        <work.dir>${project.build.directory}/${project.build.finalName}</work.dir>
+        <forms.home>${project.root}/forms-home/src/main/resources</forms.home>
+    </properties>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.0.2</version>
+                <executions>
+                    <execution>
+                        <id>local</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>resources</goal>
+                        </goals>
+                        <configuration>
+                            <encoding>UTF-8</encoding>
+                            <outputDirectory>${work.dir}/local</outputDirectory>
+                            <filters>
+                                <filter>${basedir}/src/main/filters/local.properties</filter>
+                            </filters>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>dev</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>resources</goal>
+                        </goals>
+                        <configuration>
+                            <encoding>UTF-8</encoding>
+                            <outputDirectory>${work.dir}/dev</outputDirectory>
+                            <filters>
+                                <filter>${basedir}/src/main/filters/dev.properties</filter>
+                            </filters>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>test</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>resources</goal>
+                        </goals>
+                        <configuration>
+                            <encoding>UTF-8</encoding>
+                            <outputDirectory>${work.dir}/test</outputDirectory>
+                            <filters>
+                                <filter>${basedir}/src/main/filters/test.properties</filter>
+                            </filters>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>dist</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>resources</goal>
+                        </goals>
+                        <configuration>
+                            <encoding>UTF-8</encoding>
+                            <outputDirectory>${work.dir}/dist</outputDirectory>
+                            <filters>
+                                <filter>${basedir}/src/main/filters/dist.properties</filter>
+                            </filters>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- FORMS-CONTEXT-START -->
+            <plugin>
+                <groupId>com.google.code.maven-replacer-plugin</groupId>
+                <artifactId>replacer</artifactId>
+                <version>1.5.3</version>
+                <executions>
+                    <execution>
+                        <id>fix-non-canonical-paths</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>replace</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <includes>
+                        <include>${work.dir}/local/jetty/forms-runtime/jetty.xml</include>
+                        <include>${work.dir}/local/tomcat/forms-runtime/context.xml</include>
+                    </includes>
+                    <replacements>
+                        <replacement>
+                            <token>([/\\]+${project.build.finalName}[/\\]+\.\.)</token>
+                            <value></value>
+                        </replacement>
+                    </replacements>
+                </configuration>
+            </plugin>
+            <!-- FORMS-CONTEXT-END -->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptors>
+                        <descriptor>assembly/dev.xml</descriptor>
+                        <descriptor>assembly/test.xml</descriptor>
+                        <descriptor>assembly/dist.xml</descriptor>
+                    </descriptors>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assemblies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

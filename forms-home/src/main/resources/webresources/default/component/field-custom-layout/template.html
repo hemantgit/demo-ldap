@@ -1,0 +1,19 @@
+<div id="{{element.key}}" class="form-group" class="{{::element.classList}}">
+    <!-- Field label -->
+    <label for="{{element.key}}" class="control-label">
+        {{element.label}}
+        <span class="opt" ng-show="!element.required">{{$ctrl.form.lookupMessage('optionalField')}}</span>
+        <span class="fa fa-info-circle tooltip-elem" ng-if="element.description" element="element" >
+            <span class="tooltip-elem__content-wrap">
+                <span class="toolip-body text-muted">{{element.description}}</span>
+
+            </span>
+        </span>
+    </label>
+
+    <!-- Field control -->
+    <div ng-class="{ 'has-error': (element.messages.length > 0) }">
+            <control></control>
+    </div>
+</div>
+

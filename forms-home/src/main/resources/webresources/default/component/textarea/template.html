@@ -1,0 +1,12 @@
+<textarea
+    class="form-control {{::element.classList}}"
+    ng-model="element.value[0]"
+    name="{{element.name}}"
+    id="{{element.key}}"
+    ng-blur="$emit('update')"
+    ng-required="element.required"
+    ng-disabled="element.disabled"
+    ng-readonly="element.readOnly"
+    maxlength="{{element.maxLength}}"
+    novalidate>
+</textarea>

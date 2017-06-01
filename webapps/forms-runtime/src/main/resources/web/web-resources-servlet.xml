@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="
+			http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-2.5.xsd
+            http://www.springframework.org/schema/mvc
+        	http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+    <mvc:annotation-driven />
+
+    <mvc:interceptors>
+        <bean id="pluginInClassLoaderIntercepter" class="com.aquima.web.webinterceptor.PluginClassLoaderIntercepter" autowire="byType" />
+        <bean id="resourceSecurityInterceptor" class="com.aquima.web.webinterceptor.ResourceSecurityInterceptor" />
+        <bean id="httpSecurityInterceptor" class="com.aquima.web.webinterceptor.HttpSecurityInterceptor" autowire="byType"/>
+    </mvc:interceptors>
+
+    <!-- web-resources is deprecated and will be removed in R10   -->
+    <mvc:resources mapping="/#{ pluginManager.webResourcesCacheKey }/**"
+                   location="aquima:/webresources/,classpath:/webresources/,classpath*:/webresources/,aquima:/web-resources/,classpath:/web-resources/,classpath*:/web-resources/"
+                   cache-period="31556926" />
+    <mvc:resources mapping="/**"
+                   location="aquima:/webresources/,classpath:/webresources/,classpath*:/webresources/,aquima:/web-resources/,classpath:/web-resources/,classpath*:/web-resources/"
+                   cache-period="31556926" />
+</beans>

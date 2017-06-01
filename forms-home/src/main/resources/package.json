@@ -1,0 +1,26 @@
+{
+  "name": "forms-ui",
+  "version": "0.0.1",
+  "scripts": {
+    "bower": "bower",
+    "gulp": "gulp"
+  },
+  "license": "Backbase",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "gulp": "^3.8.5",
+    "gulp-concat": "^2.4.3",
+    "gulp-insert": "^0.4.0",
+    "gulp-jshint": "^1.6.4",
+    "gulp-ng-annotate": "^0.5.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-uglify": "^1.1.0",
+    "gulp-watch": "^4.1.1",
+    "gulp-wrap": "^0.10.1",
+    "rimraf": "^2.2.8",
+    "filesystem-bower-resolver": "^1.2.0",
+    "bb-bower-resolver": "^1.1.2"
+  }
+}

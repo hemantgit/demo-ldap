@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation=" http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>mx.backbase</groupId>
+        <artifactId>forms-parent</artifactId>
+        <version>1.0</version>
+        <relativePath>../forms-parent/pom.xml</relativePath>
+    </parent>
+
+    <artifactId>forms-plugins</artifactId>
+    <version>1.0</version>
+
+    <packaging>pom</packaging>
+
+    <name>Backbase Forms :: Forms Plugins</name>
+    <description>A module that aggregates all forms plugins.</description>
+
+    <modules>
+        <!--<module>sample-plugin-collection</module>-->
+    </modules>
+
+    <dependencies>
+        <!-- Forms Utils -->
+        <dependency>
+            <groupId>com.backbase.expert.forms</groupId>
+            <artifactId>forms-utils</artifactId>
+        </dependency>
+
+        <!-- Forms SDK -->
+        <dependency>
+            <groupId>com.aquima</groupId>
+            <artifactId>aquima-sdk-oem</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.aquima</groupId>
+            <artifactId>aquima-web</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.aquima</groupId>
+            <artifactId>aquima-web-sdk</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.aquima</groupId>
+            <artifactId>aquima-sdk-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Required Spring libraries -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Commons Lang -->
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Servlet API -->
+        <!-- Support old custom webapps with old servlet spec. Please note the changed artifactId!!!! -->
+        <!-- Only need for Forms 5.9.x.x and earlier -->
+        <!--
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+        </dependency>
+        -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>${servlet.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+        </dependency>
+
+        <!-- Mockito to create mocks for unit tests -->
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+        </resources>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+            </testResource>
+            <testResource>
+                <directory>src/test/java</directory>
+                <excludes>
+                    <!-- Ignore integration tests during normal build -->
+                    <exclude>**/*IT.java</exclude>
+                </excludes>
+            </testResource>
+        </testResources>
+    </build>
+</project>

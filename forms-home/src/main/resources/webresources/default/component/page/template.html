@@ -1,0 +1,13 @@
+<div class="{{element.contentStyle}}">
+    <div class="form-header">
+        <h1 ng-if="element.get('displayName')" ng-bind="element.get('displayName')"></h1>
+    </div>
+    <div ng-if="element.messages.length > 0" class="col-sm-12">
+        <div class="alert alert-warning">
+            <!-- {{element | constructErrorMessage:formFunctions}} -->
+        </div>
+    </div>
+    <div class="form-content" ng-if="element.children.length">
+        <children></children>
+    </div>
+</div>

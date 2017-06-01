@@ -1,0 +1,14 @@
+<div class="{{element.classList}} checkbox-group" name="{{element.name}}" id="{{element.key}}">
+    <div class="checkbox" ng-repeat="option in element.options">
+        <label for="{{element.key}}-{{$index}}">
+            <input type="checkbox"
+            id="{{element.key}}-{{$index}}"
+            name="{{element.name}}"
+            ng-model="cbg.valueMap[$index]"
+            ng-change="cbg.updateValues();$emit('update')"
+            ng-disabled="element.disabled || element.readOnly"
+            ng-readonly="element.readOnly" />
+            {{option.displayValue}}
+        </label>
+    </div>
+</div>

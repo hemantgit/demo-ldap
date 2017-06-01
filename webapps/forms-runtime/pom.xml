@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>mx.backbase</groupId>
+        <artifactId>webapps</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <artifactId>forms-runtime</artifactId>
+    <packaging>war</packaging>
+
+    <name>Backbase Forms :: Forms Runtime</name>
+
+    <description>This module produces the final WAR of the Forms Runtime component.</description>
+
+    <properties>
+        <project.root>${basedir}/../..</project.root>
+        <work.dir>${project.build.directory}/${project.build.finalName}</work.dir>
+        <parent.dir>${project.parent.basedir}</parent.dir>
+
+        <!-- Maven timestamp settings -->
+        <timestamp>2017-04-10T11:27:11Z</timestamp>
+        <maven.build.timestamp.format>yyyy-MM-dd HH:mm</maven.build.timestamp.format>
+
+        <configuration.dir>${project.parent.basedir}/../configuration</configuration.dir>
+    </properties>
+
+    <dependencies>
+
+        <!-- Include here all Forms Plugins from forms-plugins module that need to be deployed in final WAR -->
+        <!--
+        <dependency>
+            <groupId>mx.backbase</groupId>
+            <artifactId>sample-plugin-collection</artifactId>
+        </dependency>
+        -->
+
+        <!-- Forms runtime WAR overlay -->
+        <dependency>
+            <groupId>com.backbase.forms</groupId>
+            <artifactId>forms-runtime</artifactId>
+            <type>war</type>
+        </dependency>
+
+        <!-- Forms plugins -->
+        <dependency>
+            <groupId>com.backbase.forms.plugins</groupId>
+            <artifactId>plugin-dev</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.backbase.forms.plugins</groupId>
+            <artifactId>plugin-dev-sdk</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.backbase.forms.plugins</groupId>
+            <artifactId>plugin-requestparameters</artifactId>
+        </dependency>
+
+        <!-- Forms SDK -->
+        <dependency>
+            <groupId>com.aquima</groupId>
+            <artifactId>aquima-sdk-oem</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.aquima</groupId>
+            <artifactId>aquima-web</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.aquima</groupId>
+            <artifactId>aquima-web-sdk</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.aquima</groupId>
+            <artifactId>aquima-sdk-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Velocity templating -->
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+            <version>1.7</version>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <finalName>forms-runtime</finalName>
+
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+    </build>
+</project>

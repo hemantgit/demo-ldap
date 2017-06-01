@@ -1,0 +1,6 @@
+{
+  "directory": "webresources/bower_components",
+  "resolvers": [
+    "bb-bower-resolver"
+  ]
+}

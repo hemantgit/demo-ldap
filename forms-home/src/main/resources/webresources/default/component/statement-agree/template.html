@@ -1,0 +1,13 @@
+<div class="{{element.classList}}" statement-agree
+     name="{{element.name}}"
+     id="{{element.key}}"
+     ng-required="{{element.required}}"
+     ng-class="{'has-error':element.hasError}"
+     ng-disabled="element.disabled || element.readOnly || (element.hasError && element.hasStyle('FormReadOnlyOnError'))"
+     ng-readonly="element.readonly">
+
+    <input type="checkbox"
+           ng-model="element.value[0]"
+           ng-change="$emit('update')"/>
+    <label class="control-label">{{element.label}}</label>
+</div>

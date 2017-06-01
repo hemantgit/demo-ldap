@@ -1,0 +1,19 @@
+<div class="form-group" file-upload-content>
+    <label class="control-label" ng-if="element.displayName">
+        {{element.displayName}}
+    </label>
+
+    <div ng-class="{'has-error':(element.messages.length > 0)}" class="field-control">
+        <div ng-if="element.properties.singlefilemode" class="submit-button btn" ngf-select="upload($file)" name="file" ng-model="file" ngf-max-size="{{maxFileSize}}" ngf-pattern="{{allowedExtensions}}">
+              {{element.properties.singleuploadlabel}}
+        </div>
+
+        <div ng-if="!element.properties.singlefilemode" class="btn submit-button" ngf-select="upload($files)"
+             ngf-max-size="{{maxfilesize}}" ng-model="files" ngf-multiple="true" ngf-pattern="allowedExtensions"
+             accept="allowedExtensions">
+             {{element.properties.multiuploadlabel}}
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,11 @@
+<div input-checkbox class="checkbox checkbox-inline">
+    <input type="checkbox"
+        id="{{element.key}}"
+        name="{{element.name}}"
+        ng-model="element.value[0]"
+        ng-true-value="'true'"
+        ng-false-value="'false'"
+        ng-change="$emit('update')"
+        ng-disabled="element.disabled || element.readOnly || (element.hasError && element.hasStyle('FormReadOnlyOnError'))"
+        ng-readonly="element.readOnly" />
+</div>

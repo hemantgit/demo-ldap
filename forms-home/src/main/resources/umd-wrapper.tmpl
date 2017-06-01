@@ -1,0 +1,16 @@
+(function (root, factory) {
+	'use strict';
+	if (typeof define === 'function' && define.amd) {
+		define(['angular'], factory);
+	} else if (typeof module !== 'undefined' && typeof module.exports === 'object') {
+		module.exports = factory(require('angular'));
+	} else {
+		return factory(root.angular);
+	}
+}(this, function (angular) {
+
+	<%= contents %>
+
+	//forms angular module name
+	return 'forms-ui';
+}));

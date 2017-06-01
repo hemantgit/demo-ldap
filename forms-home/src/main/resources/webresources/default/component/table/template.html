@@ -1,0 +1,10 @@
+<div class="bbform-contentitem">
+	<table>
+		<tr ng-repeat="row in element.children" ng-if="row.children.length > 0">
+			<td ng-repeat="cell in row.children" ng-if="cell.children.length > 0">
+				<p ng-repeat="content in cell.children"
+				   ng-bind-html="content.nodes | formatContentItem" ng-if="content.nodes.length > 0"></p>
+			</td>
+		</tr>
+	</table>
+</div>

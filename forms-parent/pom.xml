@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.backbase.expert.forms</groupId>
+        <artifactId>forms-parent</artifactId>
+        <version>1.0.5</version>
+    </parent>
+
+    <groupId>mx.backbase</groupId>
+    <artifactId>forms-parent</artifactId>
+    <version>1.0</version>
+    <packaging>pom</packaging>
+
+    <name>Backbase Forms :: Parent</name>
+    <description>Forms Parent.</description>
+
+    <properties>
+        <source.version>1.7</source.version>
+        <target.version>1.7</target.version>
+
+        <forms.utils.version>1.0.5</forms.utils.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <!-- Forms Utils -->
+            <dependency>
+                <groupId>com.backbase.expert.forms</groupId>
+                <artifactId>forms-utils</artifactId>
+                <version>${forms.utils.version}</version>
+            </dependency>
+
+            <!-- Include/override project specific dependency management here -->
+
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <!-- Include/override project specific plugin management here -->
+        </pluginManagement>
+
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>${source.version}</source>
+                    <target>${target.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

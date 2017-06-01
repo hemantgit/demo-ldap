@@ -1,0 +1,14 @@
+<div class="input-group">
+    <span class="input-group-addon">{{$ctrl.form.lookupMessage('defaultCurrency')}}</span>
+    <input type="text"
+        class="form-control"
+        name="{{element.name}}"
+        id="{{element.key}}"
+        ng-blur="$emit('update')"
+        ng-model="element.value[0]"
+        ng-required="element.required"
+        ng-disabled="element.disabled"
+        ng-readonly="element.readOnly"
+        maxlength="{{element.maxLength}}"
+novalidate>
+</div>
