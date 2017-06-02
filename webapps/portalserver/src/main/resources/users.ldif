@@ -1,0 +1,38 @@
+dn: ou=groups,dc=backbase,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: groups
+
+dn: ou=people,dc=backbase,dc=com
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: uid=john,ou=people,dc=backbase,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: John Smith
+sn: Smith
+uid: john
+userPassword: backbase
+mail:john@backbase.com
+
+dn: uid=jane,ou=people,dc=backbase,dc=com
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Jane Doe
+sn: Doe
+uid: jane
+userPassword: backbase
+mail:jane@backbase.com
+
+dn: cn=user,ou=groups,dc=backbase,dc=com
+objectclass: top
+objectclass: groupOfNames
+cn: employees
+member: uid=john,ou=people,dc=backbase,dc=com
+member: uid=jane,ou=people,dc=backbase,dc=com
