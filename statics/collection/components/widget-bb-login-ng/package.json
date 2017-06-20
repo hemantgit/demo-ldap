@@ -1,0 +1,49 @@
+{
+  "_args": [
+    [
+      "widget-bb-login-ng@2.0.8",
+      "/Users/oriol/Repos/cb/bus/collection-business-banking"
+    ]
+  ],
+  "_from": "widget-bb-login-ng@2.0.8",
+  "_id": "widget-bb-login-ng@2.0.8",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/widget-bb-login-ng",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "widget-bb-login-ng",
+    "raw": "widget-bb-login-ng@2.0.8",
+    "rawSpec": "2.0.8",
+    "scope": null,
+    "spec": "2.0.8",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://artifacts.backbase.com/api/npm/npm-backbase/widget-bb-login-ng/-/widget-bb-login-ng-2.0.8.tgz",
+  "_shasum": "b5ee126f0c3642aed4ce96dc94664ea49088ddc4",
+  "_shrinkwrap": null,
+  "_spec": "widget-bb-login-ng@2.0.8",
+  "_where": "/Users/oriol/Repos/cb/bus/collection-business-banking",
+  "dependencies": {
+    "config-bb-module-loader": "^1.1.17",
+    "ext-bb-login-ng": "^1.0.30",
+    "lib-bb-start": "^2.0.17",
+    "lib-bb-widget-ng": "^1.2.24",
+    "model-bb-login-ng": "^1.0.30",
+    "vendor-bb-angular": "1.5.8-bb.1",
+    "vendor-bb-systemjs": "0.19.38-bb.1"
+  },
+  "devDependencies": {},
+  "dist": {
+    "shasum": "b5ee126f0c3642aed4ce96dc94664ea49088ddc4",
+    "tarball": "https://artifacts.backbase.com/api/npm/npm-backbase/widget-bb-login-ng/-/widget-bb-login-ng-2.0.8.tgz"
+  },
+  "main": "scripts/widget-bb-login-ng.js",
+  "name": "widget-bb-login-ng",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "2.0.8"
+}

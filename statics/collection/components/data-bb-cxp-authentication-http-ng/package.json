@@ -1,0 +1,43 @@
+{
+  "_args": [
+    [
+      "data-bb-cxp-authentication-http-ng@^1.0.39",
+      "/Users/oriol/Repos/cb/bus/collection-business-banking/node_modules/model-bb-login-ng"
+    ]
+  ],
+  "_from": "data-bb-cxp-authentication-http-ng@>=1.0.39 <2.0.0",
+  "_id": "data-bb-cxp-authentication-http-ng@1.0.39",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/data-bb-cxp-authentication-http-ng",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "data-bb-cxp-authentication-http-ng",
+    "raw": "data-bb-cxp-authentication-http-ng@^1.0.39",
+    "rawSpec": "^1.0.39",
+    "scope": null,
+    "spec": ">=1.0.39 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/model-bb-login-ng"
+  ],
+  "_resolved": "https://artifacts.backbase.com/api/npm/npm-backbase/data-bb-cxp-authentication-http-ng/-/data-bb-cxp-authentication-http-ng-1.0.39.tgz",
+  "_shasum": "462651f942575e653f2b9c938e933b3dd75582cc",
+  "_shrinkwrap": null,
+  "_spec": "data-bb-cxp-authentication-http-ng@^1.0.39",
+  "_where": "/Users/oriol/Repos/cb/bus/collection-business-banking/node_modules/model-bb-login-ng",
+  "dependencies": {
+    "vendor-bb-angular": "1.5.8-bb.1"
+  },
+  "devDependencies": {},
+  "dist": {
+    "shasum": "462651f942575e653f2b9c938e933b3dd75582cc",
+    "tarball": "https://artifacts.backbase.com/api/npm/npm-backbase/data-bb-cxp-authentication-http-ng/-/data-bb-cxp-authentication-http-ng-1.0.39.tgz"
+  },
+  "main": "scripts/data-bb-cxp-authentication-http-ng.js",
+  "name": "data-bb-cxp-authentication-http-ng",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "1.0.39"
+}

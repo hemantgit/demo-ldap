@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <feature>
+        <name>data-bb-cxp-authentication-http-ng</name>
+        <contextItemName>[BBHOST]</contextItemName>
+        <properties>
+            <property name="title" label="Title" viewHint="admin,designModeOnly">
+                <value type="string">Data BB CXP Authentication HTTP Angular</value>
+            </property>
+            <property name="version" label="Version" readonly="true" viewHint="admin,designModeOnly">
+                <value type="string">1.0.39</value>
+            </property>
+            <property name="feature.vendor-bb-angular" label="Feature Vendor Bb Angular" readonly="true" viewHint="">
+                <value type="string">vendor-bb-angular</value>
+            </property>
+            <property name="path" label="Path" readonly="true" viewHint="designModeOnly">
+                <value type="string">$(itemRoot)/scripts/data-bb-cxp-authentication-http-ng.js</value>
+            </property>
+        </properties>
+    </feature>
+</catalog>
