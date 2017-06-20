@@ -180,6 +180,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      if (response.status === 200) {
 	        window.location.assign(loginRedirectUrl);
 	      }
+		  console.log("loginRedirectUrl",loginRedirectUrl);
 	    }).catch(function () {
 	      $ctrl.loginError = true;
 	      $ctrl.password = '';

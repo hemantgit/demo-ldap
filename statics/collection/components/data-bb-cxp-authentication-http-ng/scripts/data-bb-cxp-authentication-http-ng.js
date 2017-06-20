@@ -171,7 +171,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return function (httpClient) {
 	    var portalServerRoot = window.b$.portal.config.serverRoot.replace(/\//g, '');
 	    var config = {
-	      endpoint: '' + conf.baseUri + portalServerRoot + '/bb-public-api/security'
+	      endpoint: '' + conf.baseUri + portalServerRoot + '/j_spring_security_check'
 	    };
 	
 	    /**
@@ -190,7 +190,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	     *  });
 	     */
 	    function postLogin(data, headers) {
-	      var url = config.endpoint + '/login';
+	      var url = config.endpoint;  //+ '/login';
 	
 	      return httpClient({
 	        method: 'POST',

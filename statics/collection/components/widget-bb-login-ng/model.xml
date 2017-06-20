@@ -1,53 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<catalog>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalog totalSize="1">
     <widget>
         <name>widget-bb-login-ng</name>
-        <contextItemName>[BBHOST]</contextItemName>
+        <tags/>
+        <lockState>UNLOCKED</lockState>
         <properties>
-            <property name="TemplateName">
-                <value type="string">Standard_Widget</value>
-            </property>
-            <property label="Title" name="title" viewHint="text-input,admin">
-                <value type="string">Login</value>
-            </property>
-            <property name="src">
-                <value type="string">$(itemRoot)/index.html</value>
-            </property>
-            <property name="thumbnailUrl">
-                <value type="string">$(itemRoot)/assets/icon.png</value>
+            <property label="Feature Vendor Bb Angular" name="feature.vendor-bb-angular" viewHint="">
+                <value type="string">vendor-bb-angular</value>
             </property>
             <property name="extension" viewHint="text-input,admin">
                 <value type="string">ext-bb-login-ng</value>
             </property>
-            <property name="loginRedirectPage" label="Landing page after successful login" viewHint="text-input,admin">
-                <value type="string">index</value>
+            <property name="src" manageable="true">
+                <value type="string">$(itemRoot)/index.html</value>
             </property>
-            <property name="version" label="Version" readonly="true" viewHint="text-input,admin,designModeOnly">
-                <value type="string">2.0.8</value>
-            </property>
-            <property name="path" label="Path" readonly="true" viewHint="designModeOnly">
-                <value type="string">$(itemRoot)/scripts/widget-bb-login-ng.js</value>
-            </property>
-            <property name="feature.vendor-bb-angular" label="Feature Vendor Bb Angular" readonly="true" viewHint="">
-                <value type="string">vendor-bb-angular</value>
-            </property>
-            <property name="feature.lib-bb-widget-ng" label="Feature Lib Bb Widget Ng" readonly="true" viewHint="">
-                <value type="string">lib-bb-widget-ng</value>
-            </property>
-            <property name="feature.model-bb-login-ng" label="Feature Model Bb Login Ng" readonly="true" viewHint="">
-                <value type="string">model-bb-login-ng</value>
-            </property>
-            <property name="feature.ext-bb-login-ng" label="Feature Ext Bb Login Ng" readonly="true" viewHint="">
+            <property label="Feature Ext Bb Login Ng" name="feature.ext-bb-login-ng" viewHint="">
                 <value type="string">ext-bb-login-ng</value>
             </property>
-            <property name="feature.vendor-bb-systemjs" label="Feature Vendor Bb Systemjs" readonly="true" viewHint="">
-                <value type="string">vendor-bb-systemjs</value>
+            <property label="Title" name="title" viewHint="text-input,admin">
+                <value type="string">Login</value>
             </property>
-            <property name="feature.config-bb-module-loader" label="Feature Config Bb Module Loader" readonly="true" viewHint="">
+            <property label="Version" name="version" viewHint="text-input,admin,designModeOnly">
+                <value type="string">2.0.8</value>
+            </property>
+            <property label="Path" name="path" viewHint="designModeOnly" manageable="true">
+                <value type="string">$(itemRoot)/scripts/widget-bb-login-ng.js</value>
+            </property>
+            <property label="Feature Lib Bb Widget Ng" name="feature.lib-bb-widget-ng" viewHint="">
+                <value type="string">lib-bb-widget-ng</value>
+            </property>
+            <property label="Feature Lib Bb Start" name="feature.lib-bb-start" viewHint="">
+                <value type="string">lib-bb-start</value>
+            </property>
+            <property name="TemplateName">
+                <value type="string">Standard_Widget</value>
+            </property>
+            <property label="Feature Config Bb Module Loader" name="feature.config-bb-module-loader" viewHint="">
                 <value type="string">config-bb-module-loader</value>
             </property>
-            <property name="feature.lib-bb-start" label="Feature Lib Bb Start" readonly="true" viewHint="">
-                <value type="string">lib-bb-start</value>
+            <property label="Feature Model Bb Login Ng" name="feature.model-bb-login-ng" viewHint="">
+                <value type="string">model-bb-login-ng</value>
+            </property>
+            <property label="Feature Vendor Bb Systemjs" name="feature.vendor-bb-systemjs" viewHint="">
+                <value type="string">vendor-bb-systemjs</value>
+            </property>
+            <property name="thumbnailUrl" manageable="true">
+                <value type="string">$(itemRoot)/assets/icon.png</value>
+            </property>
+            <property label="Landing page after successful login" name="loginRedirectPage" viewHint="text-input,admin">
+                <value type="string">index</value>
+            </property>
+            <property name="widgetChrome">
+                <value type="string">$(contextRoot)/static/backbase.com.2012.aurora/html/chromes/widget_none.html</value>
+            </property>
+            <property name="Description">
+                <value type="String"></value>
             </property>
         </properties>
     </widget>
