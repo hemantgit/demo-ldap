@@ -171,9 +171,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  return function (httpClient) {
 	    var portalServerRoot = window.b$.portal.config.serverRoot.replace(/\//g, '');
 	    var config = {
-	      endpoint: '' + conf.baseUri + portalServerRoot + '/j_spring_security_check'
+	        endpoint: "http://192.168.10.158:7777/portalserver/j_spring_security_check"
+	      //endpoint: '' + conf.baseUri + '/' + portalServerRoot + '/j_spring_security_check'
 	    };
-	
+	    console.log("config endpoint" + config.endpoint);
+
 	    /**
 	     * @name CXPAuthenticationData#postLogin
 	     * @type {function}
